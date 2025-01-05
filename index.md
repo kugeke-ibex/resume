@@ -64,8 +64,8 @@ layout: doc
 
 |言語|業務経験|
 |---|---|
-|<img alt="Go" src="https://img.shields.io/badge/Go-00ADD8.svg?logo=go&style=flat" />|半年|
-|<img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-3178C6.svg?logo=typeScript&style=flat" />|半年|
+|<img alt="Go" src="https://img.shields.io/badge/Go-00ADD8.svg?logo=go&style=flat&logoColor=white" />|半年|
+|<img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-3178C6.svg?logo=typeScript&style=flat&logoColor=white" />|半年|
 
 
 ### 通信プロトコル
