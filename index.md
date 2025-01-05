@@ -88,6 +88,7 @@ layout: doc
 - Google Calendar API, Google Sheets API, Cloud Vision API
 
 ### SaaS/PaaS
+- WafCharm
 - Azure AD
 - Microsoft Graph API
 
