@@ -12,18 +12,5 @@ module.exports = {
       "headerTemplate": "<style>\n  section {\n    margin: 0 auto;\n    font-size: 9px;\n  }\n</style>",
       "footerTemplate": "<section>\n  <div>\n    <span class=\"pageNumber\"></span>\n    / <span class=\"totalPages\"></span>\n  </div>\n</section>"
     },
-    stylesheet_encoding: "utf-8",
-    browsers: ['ChromeHeadlessCI'],
-    customLaunchers: {
-      ChromeHeadlessCI: {
-        base: 'ChromeHeadless',
-        flags: [
-          '--no-sandbox',
-          '--single-process',
-          '--disable-setuid-sandbox',
-          '--disable-gpu',
-          '--disable-dev-shm-usage'
-        ]
-      }
-    }
+    stylesheet_encoding: "utf-8"
   };
