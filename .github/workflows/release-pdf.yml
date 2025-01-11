@@ -27,7 +27,7 @@ jobs:
       - name: Run yarn run build:pdf
         run: yarn run build:pdf
       - name: Create a draft release
-        uses: softprops/action-gh-release@c95fe1489396fe8a9eb87c0abf8aa5b2ef267fda # v2
+        uses: softprops/action-gh-release@c95fe1489396fe8a9eb87c0abf8aa5b2ef267fda # v2.2.1
         with:
           body: ${{ github.event.pull_request.title }}
           draft: true
