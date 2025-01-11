@@ -5,6 +5,8 @@
   "main": "index.md",
   "scripts": {
     "lint": "textlint -c ./config/.textlintrc . && markdownlint -c ./config/.markdownlint.jsonc *.md **/*.md",
+    "textlint:fix": "textlint --fix -c ./config/.textlintrc .",
+    "markdownlint:fix": "markdownlint --fix -c ./config/.markdownlint.jsonc *.md **/*.md",
     "build:pdf": "md-to-pdf docs/index.md --config-file ./pdf-configs/config.js"
   },
   "keywords": [],
