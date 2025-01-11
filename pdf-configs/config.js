@@ -19,6 +19,7 @@ module.exports = {
         base: 'ChromeHeadless',
         flags: [
           '--no-sandbox',
+          '--single-process',
           '--disable-setuid-sandbox',
           '--disable-gpu',
           '--disable-dev-shm-usage'
