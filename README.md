@@ -3,6 +3,6 @@
 ## Tips
 
 - [shields.io](https://shields.io/)
-    - SVG 形式のバッジサービス   
+  - SVG 形式のバッジサービス
 - [Simple Icons](https://simpleicons.org/)
-    - 多くのアイコンと対応するカラーコードが利用出来るサービス
+  - 多くのアイコンと対応するカラーコードが利用出来るサービス
