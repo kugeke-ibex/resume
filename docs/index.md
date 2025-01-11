@@ -76,11 +76,11 @@
 
 #### AWS
 
-- EC2, VPC, Lambda, RDS, ElastiCache, S3, SES, SNS, SQS, API Gateway, KMS, Route 53, ACM, AWS WAF
+- EC2・VPC・Lambda・RDS・ElastiCache・S3・SES・SNS・SQS・API Gateway・KMS・Route 53・ACM・AWS WAF
 
 #### Google Cloud
 
-- Google Calendar API, Google Sheets API, Cloud Vision API
+- Google Calendar API・Google Sheets API・Cloud Vision API
 
 ### SaaS/PaaS
 
@@ -99,64 +99,64 @@
 #### 採用管理システム（ATS）開発プロジェクト
 
 【従業員数】  
-690 名/グループ合計（2023 年 9 月 30 日現在)
+690 名/グループ合計（2023 年 9 月 30 日現在）
 
 【資本金】  
-701,836 千円
+701,836 千円。
 
 【雇用形態】  
-正社員  
+正社員。
 
 【在籍期間】  
-2020/04 ～ 現在  
+2020/04 ～ 現在
 
-【チーム編成】  
+【チーム編成】
 
 - PM: 1 名  
 - バックエンドエンジニア: 4～7 名  
 
-【ステークホルダー】  
+【ステークホルダー】
 
 - クライアント: 100 社弱  
 
-【言語・フレームワーク】  
+【言語・フレームワーク】
 
 - PHP (Laravel)  
 - JavaScript (jQuery)  
 - Python  
 - Selenium
 
-【インフラ】  
+【インフラ】
 
-- AWS  
-  - EC2, VPC, Lambda, RDS, S3, AWS WAF など  
+- AWS
+  - EC2・VPC・Lambda・RDS・S3・AWS WAF など
 
-【通信プロトコル】  
+【通信プロトコル】
 
 - HTTP/HTTPS
 - REST
 - SAML  
 
-【ツール】  
+【ツール】
 
 - タスク管理: Backlog  
 - コミュニケーション: Slack, Teams  
 
-【プロダクトが属する業界】  
+【プロダクトが属する業界】
 
 - 人材・採用業界  
 
-【プロダクト概要】  
+【プロダクト概要】
 
 - 求人情報の集約・応募管理・選考管理を一元化するシステム。  
 - 求職者と企業のマッチング精度を高めるため、外部 API（Google Calendar API など）を活用した面接管理機能を搭載。  
 
-【チームの特徴・課題】  
+【チームの特徴・課題】
 
 - チーム間の連携が強く、コミュニケーションが活発。  
 - 初期段階では、運用フローの標準化が課題となっていたが、チェックリスト・マニュアル化により改善。  
 
-【チームでの役割】  
+【チームでの役割】
 
 - プロジェクトの要件定義、設計、実装をリード。  
 - クライアント要望に応じたカスタマイズ機能の提案・実装を担当。  
