@@ -39,6 +39,7 @@
 | -------------------------------------------------------------------------------------------- | -------- |
 | ![PHP](https://img.shields.io/badge/PHP-ccc.svg?logo=php&style=flat)                         | 6 年     |
 | ![JavaScript](https://img.shields.io/badge/Javascript-276DC3.svg?logo=javascript&style=flat) | 4 年     |
+| ![Python](https://img.shields.io/badge/Python-3776AB.svg?logo=python&style=flat&logoColor=white)             | 4 年     |
 
 | フレームワーク                                                                                                          | 業務経験 |
 | ----------------------------------------------------------------------------------------------------------------------- | -------- |
