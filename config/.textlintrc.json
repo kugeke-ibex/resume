@@ -1,6 +1,16 @@
 {
     "filters": {
-        "comments": true
+        "comments": true,
+        "allowlist": {
+            "allow": [
+                ":::",
+                "/:::details\\s.*/",
+                "】",
+                "現在",
+                "円",
+                "正社員"
+            ]
+    }
     },
     "rules": {
         "apostrophe": true,
