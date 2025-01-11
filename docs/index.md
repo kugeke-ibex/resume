@@ -50,7 +50,7 @@
 |---|---|
 |<img alt="Laravel" src="https://img.shields.io/badge/-Laravel-FF2D20?style=flat-square&logo=Laravel&logoColor=white" />|6 年|
 |<img alt="jQuery" src="https://img.shields.io/badge/-jQuery-0769AD.svg?logo=jquery&style=flat" />|4 年|
-|<img alt="Selenium" src="https://img.shields.io/badge/-Selenium-43B02A.svg?logo=Selenium&style=flat" />|4 年|
+|<img alt="Selenium" src="https://img.shields.io/badge/-Selenium-43B02A.svg?logo=Selenium&style=flat&logoColor=white" />|4 年|
 |<img alt="Docker" src="https://img.shields.io/badge/-Docker-46a2f1?style=flat-square&logo=docker&logoColor=white" />|4 年|
 |<img alt="Git" src="https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white" />|6 年|
 
