@@ -143,6 +143,8 @@
 - タスク管理: Backlog
 - コミュニケーション: Slack, Teams
 
+<div style="page-break-before:always"></div>
+
 【プロダクトが属する業界】
 
 - 人材・採用業界
@@ -188,6 +190,8 @@
 
   - チーム目標と個人目標を 1on1 を通じてメンバーと設定
   - 目標達成に向けた進捗確認と適切なサポートを実施
+
+<div style="page-break-before:always"></div>
 
 - **工数・リソース管理**:
 
