@@ -3,7 +3,7 @@ name: Release PDF
 on:
   pull_request:
     branches: [main]
-      paths: ["docs/index.md"]
+    paths: ["docs/index.md"]
   workflow_dispatch:
 
 jobs:
