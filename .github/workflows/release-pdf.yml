@@ -31,6 +31,6 @@ jobs:
                     fail_on_unmatched_files: true
                     files: docs/RESUME.pdf
                     name: "$RELEASE_BODY"
-            - env: 
-                RELEASE_BODY: ${{ github.event.pull_request.title }}
-                RELEASE_NAME: Release ${{ github.ref }}
+                env: 
+                    RELEASE_BODY: ${{ github.event.pull_request.title }}
+                    RELEASE_NAME: Release ${{ github.ref }}
