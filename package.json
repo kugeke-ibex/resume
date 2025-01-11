@@ -5,7 +5,7 @@
   "main": "index.md",
   "scripts": {
     "lint": "textlint . && markdownlint **/*.md",
-    "build:pdf": "md-to-pdf ./index.md --config-file ./pdf-configs/config.js"
+    "build:pdf": "md-to-pdf /docs/index.md --config-file ./pdf-configs/config.js"
   },
   "keywords": [],
   "author": "Kenjiro Kuge <kugetyan0211@gmail.com>",
