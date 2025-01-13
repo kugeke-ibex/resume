@@ -11,9 +11,10 @@
 
 ## 各種アカウント
 
-[![Github](https://img.shields.io/badge/KENGOL-%2312100E.svg?&style=flat-square&logo=Github&logoColor=white)](https://github.com/kugeke-ibex)
-[![X](https://img.shields.io/badge/@kugeke_ibex-%2312100E.svg?&style=flat-square&logo=x&logoColor=white)](https://x.com/kugeke_ibex)
+[![Github](https://img.shields.io/badge/KENGOL-181717.svg?&style=flat-square&logo=Github&logoColor=white)](https://github.com/kugeke-ibex)
+[![X](https://img.shields.io/badge/@kugeke_ibex-000000.svg?&style=flat-square&logo=x&logoColor=white)](https://x.com/kugeke_ibex)
 [![Zenn](https://img.shields.io/badge/KENGOL-3EA8FF.svg?&style=flat-square&logo=Zenn&logoColor=white)](https://zenn.dev/kengol)
+[![Wantedly](https://img.shields.io/badge/%E4%B9%85%E4%B8%8B%E5%85%BC%E4%BA%8C%E6%9C%97-21BDDB.svg?&style=flat-square&logo=Wantedly&logoColor=white)](https://www.wantedly.com/id/kenjirou_kuge_a)
 
 ## 意欲・興味
 
