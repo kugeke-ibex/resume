@@ -126,7 +126,7 @@
 - PHP (Laravel)
 - JavaScript (jQuery)
 - Python
-- Selenium
+- Node.js
 
 【インフラ】
 
