@@ -92,7 +92,7 @@
 
 ## 職務経歴詳細
 
-<details open><summary> 2020/04〜現在 <a href='https://tghd.co.jp/'>株式会社ツナググループ・ホールディングス</a></summary>
+<details open markdown="1"><summary> 2020/04〜現在 <a href='https://tghd.co.jp/'>株式会社ツナググループ・ホールディングス</a></summary>
 
 ### 採用管理システム（ATS）開発プロジェクト
 
