@@ -13,6 +13,8 @@ h1:first-child {
 
 table {
   font-size: 11px;
+  width: 100%;
+  margin-bottom: 20px;
   border-collapse: collapse;
 }
 
@@ -20,6 +22,7 @@ td,
 th {
   border: 1px solid #ddd;
   padding: 5px;
+  text-align: left;
 }
 
 tr:nth-child(even) {
