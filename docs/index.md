@@ -55,19 +55,19 @@
     <tbody>
       <tr>
         <td><img src="https://img.shields.io/badge/PHP-ccc.svg?logo=php&style=flat" alt="PHP"></td>
-        <td>6 年</td>
+        <td>7 年</td>
       </tr>
       <tr>
         <td><img src="https://img.shields.io/badge/Javascript-276DC3.svg?logo=javascript&style=flat" alt="JavaScript"></td>
-        <td>4 年</td>
+        <td>5 年</td>
       </tr>
       <tr>
         <td><img src="https://img.shields.io/badge/Python-3776AB.svg?logo=python&style=flat&logoColor=white" alt="Python"></td>
-        <td>4 年</td>
+        <td>5 年</td>
       </tr>
       <tr>
         <td><img src="https://img.shields.io/badge/Node.js-339933.svg?logo=node.js&style=flat&logoColor=white" alt="Node.js"></td>
-        <td>1 年未満</td>
+        <td>1 年</td>
       </tr>
     </tbody>
   </table>
@@ -82,11 +82,11 @@
     <tbody>
       <tr>
         <td><img src="https://img.shields.io/badge/-Laravel-FF2D20?style=flat-square&logo=Laravel&logoColor=white" alt="Laravel"></td>
-        <td>6 年</td>
+        <td>7 年</td>
       </tr>
       <tr>
         <td><img src="https://img.shields.io/badge/-jQuery-0769AD.svg?logo=jquery&style=flat" alt="jQuery"></td>
-        <td>4 年</td>
+        <td>5 年</td>
       </tr>
     </tbody>
   </table>
@@ -104,11 +104,11 @@
     <tbody>
       <tr>
         <td><img src="https://img.shields.io/badge/-MySQL-4479A1.svg?logo=MySQL&style=flat&logoColor=white" alt="MySQL"></td>
-        <td>6 年</td>
+        <td>7 年</td>
       </tr>
       <tr>
         <td><img src="https://img.shields.io/badge/-Redis-DC382D.svg?logo=Redis&style=flat&logoColor=white" alt="Redis"></td>
-        <td>4 年</td>
+        <td>5 年</td>
       </tr>
     </tbody>
   </table>
@@ -135,7 +135,7 @@
       </tr>
       <tr>
         <td><img alt="Playwright" src="https://img.shields.io/badge/-Playwright-43B02A?style=flat-square&logo=Playwright&logoColor=white" /></td>
-        <td>1 年未満</td>
+        <td>1 年</td>
       </tr>
     </tbody>
   </table>
@@ -211,11 +211,11 @@
     <tbody>
       <tr>
         <td><img alt="Go" src="https://img.shields.io/badge/Go-00ADD8.svg?logo=go&style=flat&logoColor=white" /></td>
-        <td>半年</td>
+        <td>1年</td>
       </tr>
       <tr>
         <td><img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-3178C6.svg?logo=typeScript&style=flat&logoColor=white" /></td>
-        <td>半年</td>
+        <td>1年</td>
       </tr>
     </tbody>
   </table>
@@ -223,7 +223,7 @@
 
 ## 職務経歴詳細
 
-<details open markdown="1"><summary> 2020/04〜現在 <a href='https://tghd.co.jp/'>株式会社ツナググループ・ホールディングス</a></summary>
+<details markdown="1"><summary> 2020/04〜2025/04 <a href='https://tghd.co.jp/'>株式会社ツナググループ・ホールディングス</a></summary>
 
 ### 採用管理システム（ATS）開発プロジェクト
 
