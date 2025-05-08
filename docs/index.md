@@ -223,7 +223,67 @@
 
 ## 職務経歴詳細
 
-<details markdown="1"><summary> 2020/04〜2025/04 <a href='https://tghd.co.jp/'>株式会社ツナググループ・ホールディングス</a></summary>
+<details open markdown="1"><summary> 2025/05〜 <a href='https://supership.jp/'>Supership株式会社</a></summary>
+
+### デジタルマーケティング支援に関する統合型配信システム
+
+<table>
+  <tr>
+    <th>項目名</th>
+    <th>内容</th>
+  </tr>
+  <tr>
+    <td>在籍期間</td>
+    <td>2025/05 ～ 現在</td>
+  </tr>
+  <tr>
+    <td>職種</td>
+    <td>バックエンドエンジニア</td>
+  </tr>
+  <tr>
+    <td>雇用形態</td>
+    <td>正社員</td>
+  </tr>
+  <tr>
+    <td>役割</td>
+    <td>
+      ・2025/05 ～ 現在: メンバー<br>
+    </td>
+  </tr>
+  <tr>
+    <td>チーム編成</td>
+    <td>ディレクター: 2 名、バックエンドエンジニア: 10名ほど</td>
+  </tr>
+  <tr>
+    <td>プロダクト概要</td>
+    <td>
+      消費者のオフライン行動(位置情報やセンサー情報)とオンライン行動(web閲覧や購買)情報を活用した高度な1to1コミュニケーションの実現を目指し、<br>
+      サイトの閲覧ログや会員属性・Beaconログ・位置情報などを基とし、オウンドメディア横断で顧客に最適なタイミング、チャネル、内容でコミュニケーションを可能とする統合配信基盤としての役割を担う。
+    </td>
+  </tr>
+  <tr>
+    <td>プロダクトが属する業界</td>
+    <td>デジタルマーケティング業界</td>
+  </tr>
+  <tr>
+    <td>開発手法</td>
+    <td>スクラム開発</td>
+  </tr>
+  <tr>
+    <td>利用技術</td>
+    <td>
+      言語・フレームワーク: Go (Gin)、TypeScript (Next.js、NestJS)<br>
+      インフラ: AWS(Aurora・ECS・DynamoDB・Lambda・Cognito・Cloudwatch・SES・SNS・SQS・Athenaなど)<br>
+      通信プロトコル: HTTP/HTTPS、REST<br>
+      タスク管理: Notion<br>
+      コミュニケーションツール: Slack, Google Meet
+    </td>
+  </tr>
+</table>
+
+</details>
+
+<details markdown="2"><summary> 2020/04〜2025/04 <a href='https://tghd.co.jp/'>株式会社ツナググループ・ホールディングス</a></summary>
 
 ### 採用管理システム（ATS）開発プロジェクト
 
