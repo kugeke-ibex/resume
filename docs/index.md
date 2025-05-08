@@ -252,7 +252,7 @@
   </tr>
   <tr>
     <td>チーム編成</td>
-    <td>ディレクター: 1 名、バックエンドエンジニア: 10名ほど</td>
+    <td>ディレクター: 2 名、バックエンドエンジニア: 10名ほど</td>
   </tr>
   <tr>
     <td>プロダクト概要</td>
@@ -273,7 +273,7 @@
     <td>利用技術</td>
     <td>
       言語・フレームワーク: Go (Gin)、TypeScript (Next.js、NestJS)<br>
-      インフラ: AWS(Aurora・ECS・Lambda・Cognito・Cloudwatch・SES・SNS・SQS・Athenaなど)<br>
+      インフラ: AWS(Aurora・ECS・DynamoDB・Lambda・Cognito・Cloudwatch・SES・SNS・SQS・Athenaなど)<br>
       通信プロトコル: HTTP/HTTPS、REST<br>
       タスク管理: Notion<br>
       コミュニケーションツール: Slack, Google Meet
