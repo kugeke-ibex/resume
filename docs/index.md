@@ -69,6 +69,14 @@
         <td><img src="https://img.shields.io/badge/Node.js-339933.svg?logo=node.js&style=flat&logoColor=white" alt="Node.js"></td>
         <td>1 年</td>
       </tr>
+      <tr>
+        <td><img alt="Go" src="https://img.shields.io/badge/Go-00ADD8.svg?logo=go&style=flat&logoColor=white" /></td>
+        <td>2ヶ月</td>
+      </tr>
+      <tr>
+        <td><img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-3178C6.svg?logo=typeScript&style=flat&logoColor=white" /></td>
+        <td>2ヶ月</td>
+      </tr>
     </tbody>
   </table>
 
@@ -87,6 +95,18 @@
       <tr>
         <td><img src="https://img.shields.io/badge/-jQuery-0769AD.svg?logo=jquery&style=flat" alt="jQuery"></td>
         <td>5 年</td>
+      </tr>
+      <tr>
+        <td><img src="https://img.shields.io/badge/-NestJS-E0234E.svg?logo=nestjs&style=flat" alt="NestJS"></td>
+        <td>2ヶ月</td>
+      </tr>
+      <tr>
+        <td><img src="https://img.shields.io/badge/-Gin-008ECF.svg?logo=gin&style=flat&color=white" alt="Gin"></td>
+        <td>2ヶ月</td>
+      </tr>
+            <tr>
+        <td><img src="https://img.shields.io/badge/-Echo-008ECF.svg?logo=Echo&style=flat&color=white" alt="Echo"></td>
+        <td>2ヶ月</td>
       </tr>
     </tbody>
   </table>
@@ -109,6 +129,10 @@
       <tr>
         <td><img src="https://img.shields.io/badge/-Redis-DC382D.svg?logo=Redis&style=flat&logoColor=white" alt="Redis"></td>
         <td>5 年</td>
+      </tr>
+      <tr>
+        <td><img src="https://img.shields.io/badge/-Postgres-4169E1.svg?logo=PostgresSQL&style=flat&logoColor=white" alt="Postgres"></td>
+        <td>2ヶ月</td>
       </tr>
     </tbody>
   </table>
