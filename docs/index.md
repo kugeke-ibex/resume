@@ -177,7 +177,7 @@
     <tbody>
       <tr>
         <td><img alt="" src="https://img.shields.io/badge/-AWS-FF9900.svg?logo=amazon-aws&style=flat&logoColor=white" /></td>
-        <td>5 年</td>
+        <td>6 年</td>
         <td>EC2・VPC・Lambda・RDS・ElastiCache・S3・SES・SNS・SQS・API Gateway・KMS・Route 53・ACM・AWS WAF</td>
       </tr>
     </tbody>
@@ -240,6 +240,10 @@
       <tr>
         <td><img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-3178C6.svg?logo=typeScript&style=flat&logoColor=white" /></td>
         <td>1年</td>
+      </tr>
+      <tr>
+        <td><img alt="Terraform" src="https://img.shields.io/badge/Terraform-844FBA.svg?logo=terraform&style=flat&logoColor=white" /></td>
+        <td>2ヶ月</td>
       </tr>
     </tbody>
   </table>
