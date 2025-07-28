@@ -161,6 +161,10 @@
         <td><img alt="Playwright" src="https://img.shields.io/badge/-Playwright-43B02A?style=flat-square&logo=Playwright&logoColor=white" /></td>
         <td>1 年</td>
       </tr>
+      <tr>
+        <td><img alt="OpenAPI" src="https://img.shields.io/badge/OpenAPI-6BA539?style=flat-square&logo=Open-API&logoColor=white" /></td>
+        <td>2ヶ月</td>
+      </tr>
     </tbody>
   </table>
 </div>
