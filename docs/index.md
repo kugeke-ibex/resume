@@ -69,6 +69,14 @@
         <td><img src="https://img.shields.io/badge/Node.js-339933.svg?logo=node.js&style=flat&logoColor=white" alt="Node.js"></td>
         <td>1 年</td>
       </tr>
+      <tr>
+        <td><img alt="Go" src="https://img.shields.io/badge/Go-00ADD8.svg?logo=go&style=flat&logoColor=white" /></td>
+        <td>2ヶ月</td>
+      </tr>
+      <tr>
+        <td><img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-3178C6.svg?logo=typeScript&style=flat&logoColor=white" /></td>
+        <td>2ヶ月</td>
+      </tr>
     </tbody>
   </table>
 
@@ -87,6 +95,18 @@
       <tr>
         <td><img src="https://img.shields.io/badge/-jQuery-0769AD.svg?logo=jquery&style=flat" alt="jQuery"></td>
         <td>5 年</td>
+      </tr>
+      <tr>
+        <td><img src="https://img.shields.io/badge/-NestJS-E0234E.svg?logo=nestjs&style=flat" alt="NestJS"></td>
+        <td>2ヶ月</td>
+      </tr>
+      <tr>
+        <td><img src="https://img.shields.io/badge/-Gin-008ECF.svg?logo=gin&style=flat&color=white" alt="Gin"></td>
+        <td>2ヶ月</td>
+      </tr>
+            <tr>
+        <td><img src="https://img.shields.io/badge/-Echo-008ECF.svg?logo=Echo&style=flat&color=white" alt="Echo"></td>
+        <td>2ヶ月</td>
       </tr>
     </tbody>
   </table>
@@ -109,6 +129,10 @@
       <tr>
         <td><img src="https://img.shields.io/badge/-Redis-DC382D.svg?logo=Redis&style=flat&logoColor=white" alt="Redis"></td>
         <td>5 年</td>
+      </tr>
+      <tr>
+        <td><img src="https://img.shields.io/badge/-Postgres-4169E1.svg?logo=PostgresSQL&style=flat&logoColor=white" alt="Postgres"></td>
+        <td>2ヶ月</td>
       </tr>
     </tbody>
   </table>
@@ -137,6 +161,10 @@
         <td><img alt="Playwright" src="https://img.shields.io/badge/-Playwright-43B02A?style=flat-square&logo=Playwright&logoColor=white" /></td>
         <td>1 年</td>
       </tr>
+      <tr>
+        <td><img alt="OpenAPI" src="https://img.shields.io/badge/OpenAPI-6BA539?style=flat-square&logo=Open-API&logoColor=white" /></td>
+        <td>2ヶ月</td>
+      </tr>
     </tbody>
   </table>
 </div>
@@ -153,7 +181,7 @@
     <tbody>
       <tr>
         <td><img alt="" src="https://img.shields.io/badge/-AWS-FF9900.svg?logo=amazon-aws&style=flat&logoColor=white" /></td>
-        <td>5 年</td>
+        <td>6 年</td>
         <td>EC2・VPC・Lambda・RDS・ElastiCache・S3・SES・SNS・SQS・API Gateway・KMS・Route 53・ACM・AWS WAF</td>
       </tr>
     </tbody>
@@ -216,6 +244,10 @@
       <tr>
         <td><img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-3178C6.svg?logo=typeScript&style=flat&logoColor=white" /></td>
         <td>1年</td>
+      </tr>
+      <tr>
+        <td><img alt="Terraform" src="https://img.shields.io/badge/Terraform-844FBA.svg?logo=terraform&style=flat&logoColor=white" /></td>
+        <td>2ヶ月</td>
       </tr>
     </tbody>
   </table>
