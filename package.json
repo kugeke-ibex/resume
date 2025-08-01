@@ -54,7 +54,7 @@
         "textlint-rule-use-si-units": "2.0.0"
     },
     "engines": {
-        "node": "20.x"
+        "node": "22.x"
     },
     "dependencies": {
         "textlint-filter-rule-allowlist": "^4.0.0"
