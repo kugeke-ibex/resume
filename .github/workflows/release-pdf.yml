@@ -69,6 +69,8 @@ jobs:
         run: make install
       - name: create PDF file
         run: make build-pdf
+        env:
+          PUPPETEER_ARGS: "--no-sandbox --disable-setuid-sandbox"
       - name: Verify PDF file exists
         run: |
           if [ ! -f "docs/index.pdf" ]; then
