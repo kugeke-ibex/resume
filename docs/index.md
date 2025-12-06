@@ -15,6 +15,7 @@
 [![X](https://img.shields.io/badge/@kugeke_ibex-000000.svg?&style=flat-square&logo=x&logoColor=white)](https://x.com/kugeke_ibex)
 [![Zenn](https://img.shields.io/badge/KENGOL-3EA8FF.svg?&style=flat-square&logo=Zenn&logoColor=white)](https://zenn.dev/kengol)
 [![Wantedly](https://img.shields.io/badge/%E4%B9%85%E4%B8%8B%E5%85%BC%E4%BA%8C%E6%9C%97-21BDDB.svg?&style=flat-square&logo=Wantedly&logoColor=white)](https://www.wantedly.com/id/kenjirou_kuge_a)
+[![Qiita](https://img.shields.io/badge/@kugeke_ibex-55C500.svg?&style=flat-square&logo=Qiita&logoColor=white)](https://qiita.com/kugeke-ibex)
 
 ## 意欲・興味
 
@@ -28,234 +29,142 @@
 ### 自己 PR
 
 1. 開発チームだけでなく、他部署との連携を主体的に行うことで、周囲を巻き込んだスピード感のあるプロダクト開発を推進する
-    - メンバークラスの頃から担当したタスクに関する仕様のキャッチアップを企画との積極的なコミニュケーションから行い、仕様の熟知と変更容易性のある柔軟なシステム設計を作る事を心がけました
-    - コードレビューや QA 業務においても担当者の負担が減る仕組みとして、仕様のドキュメントを整備し、開発・企画ともにプロダクトのドメイン知識を共通認識できる環境作りを行う事でプロダクトチーム全体としての業務負荷を分散できました
+   - メンバークラスの頃から担当したタスクに関する仕様のキャッチアップを企画との積極的なコミニュケーションから行い、仕様の熟知と変更容易性のある柔軟なシステム設計を作る事を心がけました
+   - コードレビューや QA 業務においても担当者の負担が減る仕組みとして、仕様のドキュメントを整備し、開発・企画ともにプロダクトのドメイン知識を共通認識できる環境作りを行う事でプロダクトチーム全体としての業務負荷を分散できました
 2. 技術的な課題に対して、根気良く時間がかかっても責任感を持ってやり遂げる
-    - SAML 認証を使った SSO 機能の開発においては、元々は Microsoft Entra ID(旧 Azure AD)を利用する前提で開発していましたが、フェデレーションメタデータ XML を利用することで、他 IdP との SSO 連携も可能にしました
-    - 障害対応としては求人における応募者からのメールを受信する機能に対して、一定期間受信できなかったメール情報のデータ抽出とその復旧作業を一人で担当しました
+   - SAML 認証を使った SSO 機能の開発においては、元々は Microsoft Entra ID(旧 Azure AD)を利用する前提で開発していましたが、フェデレーションメタデータ XML を利用することで、他 IdP との SSO 連携も可能にしました
+   - 障害対応としては求人における応募者からのメールを受信する機能に対して、一定期間受信できなかったメール情報のデータ抽出とその復旧作業を一人で担当しました
 
 ### 仕事をする上で大切にしている考え
 
-- スピード感のあるプロダクト開発を推進することを意識しつつ、心理的安全性を高めることにも注力し、相手を尊重したコミュニケーションを心掛けています
+- スピード感のあるプロダクト開発を推進しつつ、心理的安全性を高め、相手を尊重したコミュニケーションを心掛けています
 - 今やるべき事、将来を見通してやっておくべき事を常に吟味した行動を意識しております
-- 自身のスキルアップ・キャリアップに繋がるタスク・経験は積極的に、前向きに楽しみながら取り組む
+- 自身のスキルアップ・キャリアップに繋がるタスク・経験は積極的に取り組む
 
 ## 言語・フレームワーク・DB/NoSQL・クラウド・SaaS/PaaS・その他ミドルウェアの開発経験
 
 ### 実務経験での利用
 
-<div style="display: flex; gap: 20px;">
-  <table>
-    <thead>
-      <tr>
-        <th>言語</th>
-        <th>業務経験</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><img src="https://img.shields.io/badge/PHP-ccc.svg?logo=php&style=flat" alt="PHP"></td>
-        <td>7 年</td>
-      </tr>
-      <tr>
-        <td><img src="https://img.shields.io/badge/Javascript-276DC3.svg?logo=javascript&style=flat" alt="JavaScript"></td>
-        <td>5 年</td>
-      </tr>
-      <tr>
-        <td><img src="https://img.shields.io/badge/Python-3776AB.svg?logo=python&style=flat&logoColor=white" alt="Python"></td>
-        <td>5 年</td>
-      </tr>
-      <tr>
-        <td><img src="https://img.shields.io/badge/Node.js-339933.svg?logo=node.js&style=flat&logoColor=white" alt="Node.js"></td>
-        <td>2 年</td>
-      </tr>
-      <tr>
-        <td><img alt="Go" src="https://img.shields.io/badge/Go-00ADD8.svg?logo=go&style=flat&logoColor=white" /></td>
-        <td>7ヶ月</td>
-      </tr>
-      <tr>
-        <td><img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-3178C6.svg?logo=typeScript&style=flat&logoColor=white" /></td>
-        <td>7ヶ月</td>
-      </tr>
-    </tbody>
-  </table>
+<div style="display: flex; gap: 15px; flex-wrap: wrap;">
 
-  <table>
-    <thead>
-      <tr>
-        <th>フレームワーク</th>
-        <th>業務経験</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><img src="https://img.shields.io/badge/-Laravel-FF2D20?style=flat-square&logo=Laravel&logoColor=white" alt="Laravel"></td>
-        <td>7 年</td>
-      </tr>
-      <tr>
-        <td><img src="https://img.shields.io/badge/-jQuery-0769AD.svg?logo=jquery&style=flat" alt="jQuery"></td>
-        <td>5 年</td>
-      </tr>
-      <tr>
-        <td><img src="https://img.shields.io/badge/-NestJS-E0234E.svg?logo=nestjs&style=flat" alt="NestJS"></td>
-        <td>7ヶ月</td>
-      </tr>
-      <tr>
-        <td><img src="https://img.shields.io/badge/-Gin-008ECF.svg?logo=gin&style=flat&color=white" alt="Gin"></td>
-        <td>7ヶ月</td>
-      </tr>
-            <tr>
-        <td><img src="https://img.shields.io/badge/-Echo-008ECF.svg?logo=Echo&style=flat&color=white" alt="Echo"></td>
-        <td>7ヶ月</td>
-      </tr>
-    </tbody>
-  </table>
+<div style="flex: 1; min-width: 200px;">
+
+#### 言語
+
+| 技術                                                                                                                | 経験   |
+| ------------------------------------------------------------------------------------------------------------------- | ------ |
+| ![PHP](https://img.shields.io/badge/PHP-777BB4.svg?logo=php&style=flat-square&logoColor=white)                      | 7 年   |
+| ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E.svg?logo=javascript&style=flat-square&logoColor=black) | 5 年   |
+| ![Python](https://img.shields.io/badge/Python-3776AB.svg?logo=python&style=flat-square&logoColor=white)             | 5 年   |
+| ![Node.js](https://img.shields.io/badge/Node.js-339933.svg?logo=node.js&style=flat-square&logoColor=white)          | 2 年   |
+| ![Go](https://img.shields.io/badge/Go-00ADD8.svg?logo=go&style=flat-square&logoColor=white)                         | 7 ヶ月 |
+| ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6.svg?logo=typescript&style=flat-square&logoColor=white) | 7 ヶ月 |
+| ![Scala](https://img.shields.io/badge/Scala-DC322F.svg?logo=scala&style=flat-square&logoColor=white)                | 4 ヶ月 |
 
 </div>
 
-<div style="display: flex; gap: 20px;">
-  <table>
-    <thead>
-      <tr>
-        <th>DB・NoSQL</th>
-        <th>業務経験</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><img src="https://img.shields.io/badge/-MySQL-4479A1.svg?logo=MySQL&style=flat&logoColor=white" alt="MySQL"></td>
-        <td>7 年</td>
-      </tr>
-      <tr>
-        <td><img src="https://img.shields.io/badge/-Redis-DC382D.svg?logo=Redis&style=flat&logoColor=white" alt="Redis"></td>
-        <td>5 年</td>
-      </tr>
-      <tr>
-        <td><img src="https://img.shields.io/badge/-Postgres-4169E1.svg?logo=PostgresSQL&style=flat&logoColor=white" alt="Postgres"></td>
-        <td>7ヶ月</td>
-      </tr>
-    </tbody>
-  </table>
+<div style="flex: 1; min-width: 200px;">
 
-  <table>
-    <thead>
-      <tr>
-        <th>その他</th>
-        <th>業務経験</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><img alt="Selenium" src="https://img.shields.io/badge/-Selenium-43B02A.svg?logo=Selenium&style=flat&logoColor=white" /></td>
-        <td>4 年</td>
-      </tr>
-      <tr>
-        <td><img alt="Docker" src="https://img.shields.io/badge/-Docker-46a2f1?style=flat-square&logo=docker&logoColor=white" /></td>
-        <td>4 年</td>
-      </tr>
-      <tr>
-        <td><img alt="Git" src="https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white" /></td>
-        <td>4 年</td>
-      </tr>
-      <tr>
-        <td><img alt="Playwright" src="https://img.shields.io/badge/-Playwright-43B02A?style=flat-square&logo=Playwright&logoColor=white" /></td>
-        <td>1 年</td>
-      </tr>
-      <tr>
-        <td><img alt="OpenAPI" src="https://img.shields.io/badge/OpenAPI-6BA539?style=flat-square&logo=Open-API&logoColor=white" /></td>
-        <td>7ヶ月</td>
-      </tr>
-      <tr>
-        <td><img alt="Terraform" src="https://img.shields.io/badge/Terraform-844FBA.svg?logo=terraform&style=flat&logoColor=white" /></td>
-        <td>7ヶ月</td>
-      </tr>
-    </tbody>
-  </table>
-</div>
+#### フレームワーク
 
-<div style="display: flex; gap: 20px;">
-  <table>
-    <thead>
-      <tr>
-        <th>クラウド</th>
-        <th>業務経験</th>
-        <th>利用リソース</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><img alt="" src="https://img.shields.io/badge/-AWS-FF9900.svg?logo=amazon-aws&style=flat&logoColor=white" /></td>
-        <td>6 年</td>
-        <td>EC2・VPC・Lambda・RDS・ElastiCache・S3・SES・SNS・SQS・API Gateway・KMS・Route 53・ACM・AWS WAF</td>
-      </tr>
-    </tbody>
-  </table>
+| 技術                                                                                                       | 経験   |
+| ---------------------------------------------------------------------------------------------------------- | ------ |
+| ![Laravel](https://img.shields.io/badge/Laravel-FF2D20.svg?logo=laravel&style=flat-square&logoColor=white) | 7 年   |
+| ![jQuery](https://img.shields.io/badge/jQuery-0769AD.svg?logo=jquery&style=flat-square&logoColor=white)    | 5 年   |
+| ![NestJS](https://img.shields.io/badge/NestJS-E0234E.svg?logo=nestjs&style=flat-square&logoColor=white)    | 7 ヶ月 |
+| ![Gin](https://img.shields.io/badge/Gin-0099D1.svg?logo=gin&style=flat-square&logoColor=white)             | 7 ヶ月 |
+| ![Echo](https://img.shields.io/badge/Echo-00ADD8.svg?style=flat-square&logoColor=white)                    | 7 ヶ月 |
 
 </div>
 
-<div style="display: flex; gap: 20px;">
-  <table>
-    <thead>
-      <tr>
-        <th>SaaS・PaaS</th>
-        <th>業務経験</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><img alt="WafCharm" src="https://img.shields.io/badge/-WafCharm-2494B5.svg?logo=WafCharm&style=flat&logoColor=white" /></td>
-        <td>2 年</td>
-      </tr>
-      <tr>
-        <td><img alt="Microsoft Entra ID (旧 Azure AD)" src="https://img.shields.io/badge/-Microsoft%20Entra%20ID%20(旧%20Azure%20AD)-0078D4.svg?logo=Microsoft%20Entra%20ID&style=flat&logoColor=white" /></td>
-        <td>3 年</td>
-      </tr>
-      <tr>
-        <td><img alt="Microsoft Graph API" src="https://img.shields.io/badge/-Microsoft%20Graph%20API-0078D4.svg?logo=Microsoft%20Graph%20API&style=flat&logoColor=white" /></td>
-        <td>3 年</td>
-      </tr>
-      <tr>
-        <td><img alt="Google Calendar API" src="https://img.shields.io/badge/-Google%20Calendar%20API-4285F4.svg?logo=Google%20Calendar%20API&style=flat&logoColor=white" /></td>
-        <td>2 年</td>
-      </tr>
-      <tr>
-        <td><img alt="Google Sheets API" src="https://img.shields.io/badge/-Google%20Sheets%20API-4285F4.svg?logo=Google%20Sheets%20API&style=flat&logoColor=white" /></td>
-        <td>2 年</td>
-      </tr>
-      <tr>
-        <td><img alt="Google Cloud Vision API" src="https://img.shields.io/badge/-Google%20Cloud%20Vision%20API-4285F4.svg?logo=Google%20Cloud%20Vision%20API&style=flat&logoColor=white" /></td>
-        <td>1 年</td>
-      </tr>
-    </tbody>
-  </table>
+<div style="flex: 1; min-width: 200px;">
+
+#### DB・NoSQL
+
+| 技術                                                                                                                | 経験   |
+| ------------------------------------------------------------------------------------------------------------------- | ------ |
+| ![MySQL](https://img.shields.io/badge/MySQL-4479A1.svg?logo=mysql&style=flat-square&logoColor=white)                | 7 年   |
+| ![Redis](https://img.shields.io/badge/Redis-DC382D.svg?logo=redis&style=flat-square&logoColor=white)                | 5 年   |
+| ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1.svg?logo=postgresql&style=flat-square&logoColor=white) | 7 ヶ月 |
+
 </div>
+
+</div>
+
+<div style="display: flex; gap: 15px; flex-wrap: wrap;">
+
+<div style="flex: 1; min-width: 200px;">
+
+#### その他ミドルウェア
+
+| 技術                                                                                                                              | 経験   |
+| --------------------------------------------------------------------------------------------------------------------------------- | ------ |
+| ![Selenium](https://img.shields.io/badge/Selenium-43B02A.svg?logo=selenium&style=flat-square&logoColor=white)                     | 4 年   |
+| ![Docker](https://img.shields.io/badge/Docker-2496ED.svg?logo=docker&style=flat-square&logoColor=white)                           | 4 年   |
+| ![Git](https://img.shields.io/badge/Git-F05032.svg?logo=git&style=flat-square&logoColor=white)                                    | 4 年   |
+| ![Playwright](https://img.shields.io/badge/Playwright-45BA4B.svg?logo=playwright&style=flat-square&logoColor=white)               | 1 年   |
+| ![OpenAPI](https://img.shields.io/badge/OpenAPI-6BA539.svg?logo=openapi-initiative&style=flat-square&logoColor=white)             | 7 ヶ月 |
+| ![Terraform](https://img.shields.io/badge/Terraform-844FBA.svg?logo=terraform&style=flat-square&logoColor=white)                  | 7 ヶ月 |
+| ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF.svg?logo=github-actions&style=flat-square&logoColor=white) | 7 ヶ月 |
+| ![Grafana](https://img.shields.io/badge/Grafana-F46800.svg?logo=grafana&style=flat-square&logoColor=white)                        | 7 ヶ月 |
+| ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C.svg?logo=prometheus&style=flat-square&logoColor=white)               | 7 ヶ月 |
+| ![fluentd](https://img.shields.io/badge/fluentd-0E83C8.svg?logo=fluentd&style=flat-square&logoColor=white)                        | 7 ヶ月 |
+| ![ent](https://img.shields.io/badge/ent-00ADD8.svg?logo=ent&style=flat-square&logoColor=white)                                    | 6 ヶ月 |
+| ![Atlas](https://img.shields.io/badge/Atlas-00ADD8.svg?logo=altas&style=flat-square&logoColor=white)                              | 6 ヶ月 |
+
+</div>
+
+<div style="flex: 1; min-width: 200px;">
+
+#### SaaS・PaaS
+
+| 技術                                                                                                                                                  | 経験 |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------- | ---- |
+| ![WafCharm](https://img.shields.io/badge/WafCharm-2494B5.svg?style=flat-square&logoColor=white)                                                       | 2 年 |
+| ![Microsoft Entra ID](https://img.shields.io/badge/Microsoft%20Entra%20ID-0078D4.svg?logo=microsoft&style=flat-square&logoColor=white)                | 3 年 |
+| ![Microsoft Graph API](https://img.shields.io/badge/Microsoft%20Graph%20API-0078D4.svg?logo=microsoft&style=flat-square&logoColor=white)              | 3 年 |
+| ![Google Calendar API](https://img.shields.io/badge/Google%20Calendar%20API-4285F4.svg?logo=google&style=flat-square&logoColor=white)                 | 2 年 |
+| ![Google Sheets API](https://img.shields.io/badge/Google%20Sheets%20API-4285F4.svg?logo=google-sheets&style=flat-square&logoColor=white)              | 2 年 |
+| ![Google Cloud Vision API](https://img.shields.io/badge/Google%20Cloud%20Vision%20API-4285F4.svg?logo=google-cloud&style=flat-square&logoColor=white) | 1 年 |
+
+</div>
+
+</div>
+
+#### クラウド
+
+| 技術                                                                                                  | 経験 | 利用リソース                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| ----------------------------------------------------------------------------------------------------- | ---- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ![AWS](https://img.shields.io/badge/AWS-FF9900.svg?logo=amazon-aws&style=flat-square&logoColor=white) | 6 年 | **コンピューティング:** EC2・ECS・ECR・Lambda<br>**データベース:** RDS (Aurora)・DynamoDB・ElastiCache<br>**ストレージ:** S3<br>**ネットワーク:** VPC・CloudFront・Route 53・API Gateway (REST API)<br>**セキュリティ:** Cognito・KMS・ACM・AWS WAF・SSM Parameter Store・Secrets Manager<br>**CI/CD:** CodeBuild・CodeDeploy<br>**分析・機械学習:** Athena・AWS Glue・Amazon OpenSearch Service・Managed Service for Apache Flink・Amazon EMR・Amazon Kinesis Data Streams・MWAA<br>**監視・通知:** Cloudwatch・SES・SNS・SQS・EventBridge Scheduler |
 
 ### 実務以外での利用
 
-<div style="display: flex; gap: 20px;">
-  <table>
-    <thead>
-      <tr>
-        <th>言語</th>
-        <th>業務経験</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><img alt="Go" src="https://img.shields.io/badge/Go-00ADD8.svg?logo=go&style=flat&logoColor=white" /></td>
-        <td>2年</td>
-      </tr>
-      <tr>
-        <td><img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-3178C6.svg?logo=typeScript&style=flat&logoColor=white" /></td>
-        <td>1.5年</td>
-      </tr>
-      <tr>
-        <td><img alt="Terraform" src="https://img.shields.io/badge/Terraform-844FBA.svg?logo=terraform&style=flat&logoColor=white" /></td>
-        <td>7ヶ月</td>
-      </tr>
-    </tbody>
-  </table>
-</div>
+| 技術                                                                                                                | 経験年数 |
+| ------------------------------------------------------------------------------------------------------------------- | -------- |
+| ![Go](https://img.shields.io/badge/Go-00ADD8.svg?logo=go&style=flat-square&logoColor=white)                         | 2 年     |
+| ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6.svg?logo=typescript&style=flat-square&logoColor=white) | 1.5 年   |
+| ![Terraform](https://img.shields.io/badge/Terraform-844FBA.svg?logo=terraform&style=flat-square&logoColor=white)    | 7 ヶ月   |
+
+#### Cloud Pratica（実務経験 1 年以上の現役エンジニアを対象とした高難度オンラインスクール）
+
+[Cloud Pratica](https://esa-pages.io/p/sharing/22089/posts/38/d4945bad94371c376867.html)で継続的に学習中
+
+**Kubernetes 関連**
+
+| 技術                                                                                                                |        |
+| ------------------------------------------------------------------------------------------------------------------- | ------ |
+| ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5.svg?logo=kubernetes&style=flat-square&logoColor=white) | 学習中 |
+| ![EKS](https://img.shields.io/badge/EKS-FF9900.svg?style=flat-square&logoColor=white)                               | 学習中 |
+| ![Helm](https://img.shields.io/badge/Helm-0F1689.svg?logo=helm&style=flat-square&logoColor=white)                   | 学習中 |
+| ![Argo CD](https://img.shields.io/badge/Argo%20CD-EF7B4D.svg?logo=argo&style=flat-square&logoColor=white)           | 学習中 |
+| ![Istio](https://img.shields.io/badge/Istio-466BB0.svg?logo=istio&style=flat-square&logoColor=white)                | 学習中 |
+
+**AWS (バッチ処理・ワークフロー)**
+
+| 技術                                                                                                          |        |
+| ------------------------------------------------------------------------------------------------------------- | ------ |
+| ![AWS Batch](https://img.shields.io/badge/AWS%20Batch-FF9900.svg?style=flat-square&logoColor=white)           | 学習中 |
+| ![Step Functions](https://img.shields.io/badge/Step%20Functions-FF9900.svg?style=flat-square&logoColor=white) | 学習中 |
 
 ## 職務経歴詳細
 
@@ -288,7 +197,7 @@
   </tr>
   <tr>
     <td>チーム編成</td>
-    <td>ディレクター: 2 名、バックエンドエンジニア: 10名ほど</td>
+    <td>ディレクター: 2 名、エンジニア: 7名ほど</td>
   </tr>
   <tr>
     <td>プロダクト概要</td>
@@ -308,11 +217,71 @@
   <tr>
     <td>利用技術</td>
     <td>
-      言語・フレームワーク: Go (Gin)、TypeScript (Next.js、NestJS)<br>
-      インフラ: AWS(Aurora・ECS・DynamoDB・Lambda・Cognito・Cloudwatch・SES・SNS・SQS・Athenaなど)<br>
-      通信プロトコル: HTTP/HTTPS、REST<br>
-      タスク管理: Notion<br>
-      コミュニケーションツール: Slack, Google Meet
+      <strong>言語・フレームワーク:</strong> Go (Gin)、TypeScript (Next.js、NestJS)<br>
+      <strong>インフラ:</strong> AWS (Aurora・ECS・ECR・DynamoDB・Lambda・Cognito・CloudFront・Route53・API Gateway (REST API)・Cloudwatch・SES・SNS・SQS・EventBridge Scheduler・Athena・AWS Glue・MWAA・Amazon OpenSearch Service・Managed Service for Apache Flink・Amazon EMR・Amazon Kinesis Data Streams・SSM Parameter Store・Secrets Manager・CodeBuild・CodeDeployなど)<br>
+      <strong>CI/CD:</strong> GitHub Actions<br>
+      <strong>ログ収集:</strong> fluentd<br>
+      <strong>監視ツール:</strong> Grafana、Prometheus<br>
+      <strong>通信プロトコル:</strong> HTTP/HTTPS、REST<br>
+      <strong>タスク管理:</strong> Notion<br>
+      <strong>コミュニケーションツール:</strong> Slack、Google Meet
+    </td>
+  </tr>
+</table>
+
+### マルチチャネル対応した広告入稿に関するマーケティングオートメーション基盤
+
+<table>
+  <tr>
+    <th>項目名</th>
+    <th>内容</th>
+  </tr>
+  <tr>
+    <td>在籍期間</td>
+    <td>2025/06 ～ 現在</td>
+  </tr>
+  <tr>
+    <td>職種</td>
+    <td>バックエンドエンジニア</td>
+  </tr>
+  <tr>
+    <td>雇用形態</td>
+    <td>正社員</td>
+  </tr>
+  <tr>
+    <td>役割</td>
+    <td>
+      ・2025/06 ～ 現在: メンバー<br>
+    </td>
+  </tr>
+  <tr>
+    <td>チーム編成</td>
+    <td>ディレクター: 3 名、バックエンドエンジニア: 8名ほど、フロントエンドエンジニア: 4名ほど</td>
+  </tr>
+  <tr>
+    <td>プロダクト概要</td>
+    <td>
+      顧客ユーザーのセグメント情報を基に、複雑なターゲティング条件やABテスト設定を直感的な操作で設定できるマーケティングオートメーション基盤。メール・アプリPUSH/PULL通知・SMS(RCS)など複数のチャネルに対応した広告入稿を一元管理し、顧客への最適なタイミングでのコミュニケーション配信を実現する。
+    </td>
+  </tr>
+  <tr>
+    <td>プロダクトが属する業界</td>
+    <td>デジタルマーケティング業界</td>
+  </tr>
+  <tr>
+    <td>開発手法</td>
+    <td>スクラム開発</td>
+  </tr>
+  <tr>
+    <td>利用技術</td>
+    <td>
+      <strong>言語・フレームワーク:</strong> Go (Echo)、TypeScript (Next.js)<br>
+      <strong>インフラ:</strong> AWS (Aurora・ECS・ECR・Lambda・Cognito・CloudFront・Route53・Cloudwatch・SES・SNS・SQS・EventBridge Scheduler・Athena・AWS Glue・MWAA・SSM Parameter Store・Secrets Managerなど)<br>
+      <strong>CI/CD:</strong> GitHub Actions<br>
+      <strong>ログ収集:</strong> fluentd<br>
+      <strong>通信プロトコル:</strong> HTTP/HTTPS、REST<br>
+      <strong>タスク管理:</strong> Notion<br>
+      <strong>コミュニケーションツール:</strong> Slack、Google Meet
     </td>
   </tr>
 </table>
@@ -455,11 +424,11 @@
   <tr>
     <td>利用技術</td>
     <td>
-      言語・フレームワーク: PHP (Laravel)、JavaScript (jQuery)、Python、Node.js<br>
-      インフラ: AWS(EC2・VPC・Lambda・RDS・S3・AWS WAF など)<br>
-      通信プロトコル: HTTP/HTTPS、REST、SAML<br>
-      タスク管理: Backlog<br>
-      コミュニケーションツール: Slack, Teams
+      <strong>言語・フレームワーク:</strong> PHP (Laravel)、JavaScript (jQuery)、Python、Node.js<br>
+      <strong>インフラ:</strong> AWS (EC2・VPC・Lambda・RDS・S3・AWS WAF など)<br>
+      <strong>通信プロトコル:</strong> HTTP/HTTPS、REST、SAML<br>
+      <strong>タスク管理:</strong> Backlog<br>
+      <strong>コミュニケーションツール:</strong> Slack、Teams
     </td>
   </tr>
 </table>
