@@ -36,4 +36,5 @@ build-pdf:
 		printf "\033[1;32m[Build PDF] Succeed\33[0m\n"; \
 	else \
 		printf "\033[1;31m[Build PDF] Failed\33[0m\n"; \
+		exit 1; \
 	fi
