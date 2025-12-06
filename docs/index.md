@@ -288,7 +288,7 @@
 
 </details>
 
-<details markdown="2"><summary> 2020/04〜2025/04 <a href='https://tghd.co.jp/'>株式会社ツナググループ・ホールディングス</a></summary>
+<details open markdown="2"><summary> 2020/04〜2025/04 <a href='https://tghd.co.jp/'>株式会社ツナググループ・ホールディングス</a></summary>
 
 ### 採用管理システム（ATS）開発プロジェクト
 
