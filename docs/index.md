@@ -45,7 +45,7 @@
 
 ### 実務経験での利用
 
-<div style="display: flex; gap: 15px; flex-wrap: wrap;">
+<div style="display: flex; gap: 15px; flex-wrap: wrap; align-items: flex-start;">
 
 <div style="flex: 1; min-width: 200px;">
 
@@ -91,7 +91,7 @@
 
 </div>
 
-<div style="display: flex; gap: 15px; flex-wrap: wrap;">
+<div style="display: flex; gap: 15px; flex-wrap: wrap; align-items: flex-start;">
 
 <div style="flex: 1; min-width: 200px;">
 
