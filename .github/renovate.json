@@ -11,6 +11,7 @@
         ":separateMultipleMajorReleases",
         ":timezone(Asia/Tokyo)"
     ],
+    "packageManager": "yarn",
     "dependencyDashboard": false,
     "labels": ["renovate"],
     "major": {

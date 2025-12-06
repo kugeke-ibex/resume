@@ -1,20 +1,22 @@
 name: Lint text
 
 on:
-    pull_request:
-    workflow_dispatch:
+  pull_request:
+  workflow_dispatch:
 
 jobs:
-    CI:
-        name: Lint text
-        runs-on: ubuntu-latest
-        timeout-minutes: 3
-        steps:
-          - name: Run actions/checkout
-            uses: actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8 # v6
-          - name: Run oven-sh/setup-bun
-            uses: oven-sh/setup-bun@735343b667d3e6f658f44d0eca948eb6282f2b76 # v2
-          - name: Run bun install
-            run: bun install --no-save
-          - name: Run bun lint
-            run: bun lint
+  CI:
+    name: Lint text
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - name: Run actions/checkout
+        uses: actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8 # v6.0.1
+      - name: Run actions/setup-node
+        uses: actions/setup-node@2028fbc5c25fe9cf00d9f06a71cc4710d4507903 # v6.0.0
+        with:
+          node-version-file: "package.json"
+      - name: Install dependencies
+        run: make install
+      - name: Run lint
+        run: make lint

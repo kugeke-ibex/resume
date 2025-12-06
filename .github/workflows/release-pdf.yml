@@ -3,11 +3,11 @@ name: Release PDF
 on:
   pull_request:
     branches: [main]
-    paths: ['docs/index.md']
+    paths: ["docs/index.md"]
   workflow_dispatch:
   push:
     tags:
-      - 'v*'
+      - "v*"
 
 jobs:
   release:
@@ -23,17 +23,77 @@ jobs:
       - name: Run actions/setup-node
         uses: actions/setup-node@2028fbc5c25fe9cf00d9f06a71cc4710d4507903 # v6.0.0
         with:
-          node-version-file: 'package.json'
+          node-version-file: "package.json"
+      - name: Install system dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y \
+            ca-certificates \
+            fonts-liberation \
+            libappindicator3-1 \
+            libasound2t64 \
+            libatk-bridge2.0-0 \
+            libatk1.0-0 \
+            libc6 \
+            libcairo2 \
+            libcups2 \
+            libdbus-1-3 \
+            libexpat1 \
+            libfontconfig1 \
+            libgbm1 \
+            libgcc-s1 \
+            libglib2.0-0 \
+            libgtk-3-0 \
+            libnspr4 \
+            libnss3 \
+            libpango-1.0-0 \
+            libpangocairo-1.0-0 \
+            libstdc++6 \
+            libx11-6 \
+            libx11-xcb1 \
+            libxcb1 \
+            libxcomposite1 \
+            libxcursor1 \
+            libxdamage1 \
+            libxext6 \
+            libxfixes3 \
+            libxi6 \
+            libxrandr2 \
+            libxrender1 \
+            libxss1 \
+            libxtst6 \
+            lsb-release \
+            wget \
+            xdg-utils
       - name: Install dependencies
         run: make install
       - name: create PDF file
         run: make build-pdf
+        env:
+          PUPPETEER_ARGS: "--no-sandbox --disable-setuid-sandbox"
+      - name: Verify PDF file exists
+        run: |
+          if [ ! -f "docs/index.pdf" ]; then
+            echo "Error: docs/index.pdf was not generated"
+            exit 1
+          fi
+          echo "PDF file exists: $(ls -lh docs/index.pdf)"
+      - name: Set release tag name
+        id: set_tag
+        run: |
+          if [ -n "${{ github.event.pull_request.number }}" ]; then
+            echo "tag=pr-${{ github.event.pull_request.number }}" >> $GITHUB_OUTPUT
+            echo "name=Release PR #${{ github.event.pull_request.number }}" >> $GITHUB_OUTPUT
+          else
+            echo "tag=${{ github.ref_name }}" >> $GITHUB_OUTPUT
+            echo "name=Release ${{ github.ref_name }}" >> $GITHUB_OUTPUT
+          fi
       - name: Create a draft release
         uses: softprops/action-gh-release@a06a81a03ee405af7f2048a818ed3f03bbf83c7b # v2.5.0
         with:
-          tag_name: ${{ github.ref }}
-          body: ${{ github.event.pull_request.title }}
+          tag_name: ${{ steps.set_tag.outputs.tag }}
+          body: ${{ github.event.pull_request.title || 'Release PDF' }}
           draft: true
           fail_on_unmatched_files: true
           files: docs/index.pdf
-          name: Release ${{ github.ref }}
+          name: ${{ steps.set_tag.outputs.name }}
