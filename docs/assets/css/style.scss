@@ -56,7 +56,11 @@ hr {
 }
 
 /* Flexbox layout for 実務経験での利用 section */
-/* Target divs with inline flex styles */
+/* Target divs with inline flex styles - more specific selectors */
+.main-content > div[style*="display: flex"],
+.main-content > div[style*="display:flex"],
+.main-content > div[style*="display: flex;"],
+.main-content > div[style*="display:flex;"],
 .main-content div[style*="display: flex"],
 .main-content div[style*="display:flex"],
 .main-content div[style*="display: flex;"],
@@ -65,15 +69,25 @@ hr {
   gap: 15px !important;
   flex-wrap: wrap !important;
   align-items: flex-start !important;
+  margin-bottom: 20px;
 }
 
-/* Target flex items */
+/* Target flex items - more specific selectors */
+.main-content > div[style*="display: flex"] > div[style*="flex: 1"],
+.main-content > div[style*="display: flex"] > div[style*="flex:1"],
+.main-content > div[style*="display:flex"] > div[style*="flex: 1"],
+.main-content > div[style*="display:flex"] > div[style*="flex:1"],
+.main-content div[style*="display: flex"] > div[style*="flex: 1"],
+.main-content div[style*="display: flex"] > div[style*="flex:1"],
+.main-content div[style*="display:flex"] > div[style*="flex: 1"],
+.main-content div[style*="display:flex"] > div[style*="flex:1"],
 .main-content div[style*="flex: 1"],
 .main-content div[style*="flex:1"],
 .main-content div[style*="flex: 1;"],
 .main-content div[style*="flex:1;"] {
   flex: 1 !important;
   min-width: 200px !important;
+  box-sizing: border-box;
 }
 
 /* Ensure tables inside flex containers are properly displayed */
@@ -83,4 +97,11 @@ hr {
 .main-content div[style*="flex:1;"] table {
   width: 100%;
   margin-bottom: 0;
+}
+
+/* Fix heading styles inside flex containers */
+.main-content div[style*="flex: 1"] h4,
+.main-content div[style*="flex:1"] h4 {
+  margin-top: 0;
+  margin-bottom: 10px;
 }

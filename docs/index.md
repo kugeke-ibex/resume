@@ -45,9 +45,9 @@
 
 ### 実務経験での利用
 
-<div style="display: flex; gap: 15px; flex-wrap: wrap; align-items: flex-start;">
+<div style="display: flex; gap: 15px; flex-wrap: wrap; align-items: flex-start;" markdown="1">
 
-<div style="flex: 1; min-width: 200px;">
+<div style="flex: 1; min-width: 200px;" markdown="1">
 
 #### 言語
 
@@ -63,7 +63,7 @@
 
 </div>
 
-<div style="flex: 1; min-width: 200px;">
+<div style="flex: 1; min-width: 200px;" markdown="1">
 
 #### フレームワーク
 
@@ -77,7 +77,7 @@
 
 </div>
 
-<div style="flex: 1; min-width: 200px;">
+<div style="flex: 1; min-width: 200px;" markdown="1">
 
 #### DB・NoSQL
 
@@ -91,9 +91,9 @@
 
 </div>
 
-<div style="display: flex; gap: 15px; flex-wrap: wrap; align-items: flex-start;">
+<div style="display: flex; gap: 15px; flex-wrap: wrap; align-items: flex-start;" markdown="1">
 
-<div style="flex: 1; min-width: 200px;">
+<div style="flex: 1; min-width: 200px;" markdown="1">
 
 #### その他ミドルウェア
 
@@ -114,7 +114,7 @@
 
 </div>
 
-<div style="flex: 1; min-width: 200px;">
+<div style="flex: 1; min-width: 200px;" markdown="1">
 
 #### SaaS・PaaS
 
@@ -290,9 +290,7 @@
 
 <details markdown="2"><summary> 2020/04〜2025/04 <a href='https://tghd.co.jp/'>株式会社ツナググループ・ホールディングス</a></summary>
 
-
 ### 採用管理システム（ATS）開発プロジェクト
-
 
 <table>
   <tr>
