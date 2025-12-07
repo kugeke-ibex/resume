@@ -1,20 +1,20 @@
 {
-    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-    "extends": [
-        "config:best-practices",
-        ":automergeDigest",
-        ":automergeMinor",
-        ":prConcurrentLimitNone",
-        ":prHourlyLimitNone",
-        "schedule:daily",
-        "schedule:automergeDaily",
-        ":separateMultipleMajorReleases",
-        ":timezone(Asia/Tokyo)"
-    ],
-    "packageManager": "yarn",
-    "dependencyDashboard": false,
-    "labels": ["renovate"],
-    "major": {
-        "labels": ["renovate", "update_major"]
-    }
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:best-practices",
+    "schedule:daily",
+    "schedule:automergeDaily",
+    ":separateMultipleMajorReleases",
+    ":timezone(Asia/Tokyo)"
+  ],
+  "packageManager": "yarn",
+  "dependencyDashboard": false,
+  "labels": ["renovate"],
+  "prConcurrentLimit": 0,
+  "prHourlyLimit": 0,
+  "automergeType": "digest",
+  "automerge": false,
+  "major": {
+    "labels": ["renovate", "update_major"]
+  }
 }
