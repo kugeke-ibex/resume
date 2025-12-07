@@ -145,26 +145,36 @@
 | ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6.svg?logo=typescript&style=flat-square&logoColor=white) | 1.5 年   |
 | ![Terraform](https://img.shields.io/badge/Terraform-844FBA.svg?logo=terraform&style=flat-square&logoColor=white)    | 7 ヶ月   |
 
-#### Cloud Pratica（実務経験 1 年以上の現役エンジニアを対象とした高難度オンラインスクール）
+#### [Cloud Pratica](https://esa-pages.io/p/sharing/22089/posts/38/d4945bad94371c376867.html)（実務経験 1 年以上の現役エンジニアを対象とした高難度オンラインスクール）
 
-[Cloud Pratica](https://esa-pages.io/p/sharing/22089/posts/38/d4945bad94371c376867.html)で継続的に学習中
+<div style="display: flex; gap: 15px; flex-wrap: wrap; align-items: flex-start;" markdown="1">
+
+<div style="flex: 1; min-width: 200px;" markdown="1">
 
 **Kubernetes 関連**
 
-| 技術                                                                                                                |        |
-| ------------------------------------------------------------------------------------------------------------------- | ------ |
-| ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5.svg?logo=kubernetes&style=flat-square&logoColor=white) | 学習中 |
-| ![EKS](https://img.shields.io/badge/EKS-FF9900.svg?style=flat-square&logoColor=white)                               | 学習中 |
-| ![Helm](https://img.shields.io/badge/Helm-0F1689.svg?logo=helm&style=flat-square&logoColor=white)                   | 学習中 |
-| ![Argo CD](https://img.shields.io/badge/Argo%20CD-EF7B4D.svg?logo=argo&style=flat-square&logoColor=white)           | 学習中 |
-| ![Istio](https://img.shields.io/badge/Istio-466BB0.svg?logo=istio&style=flat-square&logoColor=white)                | 学習中 |
+| 技術                                                                                                                |
+| ------------------------------------------------------------------------------------------------------------------- |
+| ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5.svg?logo=kubernetes&style=flat-square&logoColor=white) |
+| ![EKS](https://img.shields.io/badge/EKS-FF9900.svg?style=flat-square&logoColor=white)                               |
+| ![Helm](https://img.shields.io/badge/Helm-0F1689.svg?logo=helm&style=flat-square&logoColor=white)                   |
+| ![Argo CD](https://img.shields.io/badge/Argo%20CD-EF7B4D.svg?logo=argo&style=flat-square&logoColor=white)           |
+| ![Istio](https://img.shields.io/badge/Istio-466BB0.svg?logo=istio&style=flat-square&logoColor=white)                |
+
+</div>
+
+<div style="flex: 1; min-width: 200px;" markdown="1">
 
 **AWS (バッチ処理・ワークフロー)**
 
-| 技術                                                                                                          |        |
-| ------------------------------------------------------------------------------------------------------------- | ------ |
-| ![AWS Batch](https://img.shields.io/badge/AWS%20Batch-FF9900.svg?style=flat-square&logoColor=white)           | 学習中 |
-| ![Step Functions](https://img.shields.io/badge/Step%20Functions-FF9900.svg?style=flat-square&logoColor=white) | 学習中 |
+| 技術                                                                                                          |
+| ------------------------------------------------------------------------------------------------------------- |
+| ![AWS Batch](https://img.shields.io/badge/AWS%20Batch-FF9900.svg?style=flat-square&logoColor=white)           |
+| ![Step Functions](https://img.shields.io/badge/Step%20Functions-FF9900.svg?style=flat-square&logoColor=white) |
+
+</div>
+
+</div>
 
 ## 職務経歴詳細
 
@@ -288,7 +298,7 @@
 
 </details>
 
-<details open markdown="2"><summary> 2020/04〜2025/04 <a href='https://tghd.co.jp/'>株式会社ツナググループ・ホールディングス</a></summary>
+<details open markdown="1"><summary> 2020/04〜2025/04 <a href='https://tghd.co.jp/'>株式会社ツナググループ・ホールディングス</a></summary>
 
 ### 採用管理システム（ATS）開発プロジェクト
 
