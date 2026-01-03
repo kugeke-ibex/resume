@@ -1,7 +1,7 @@
 ---
 name: 職務経歴書の更新
 about: 職務経歴書の内容を定期的に見直すためのリマインダー
-title: '職務経歴書の更新 - {{ date | date: "%Y年%m月" }}'
+title: '職務経歴書の更新 - {{ date | date("YYYY年MM月") }}'
 labels: update
 assignees: ""
 ---
