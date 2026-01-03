@@ -4,6 +4,10 @@ labels: enhancement
 assignees: kugeke-ibex
 ---
 
+# やること
+
+- 四半期が経過したため、この期間の成果を職務経歴書(docs/index.md)に記載する
+
 ## 更新項目のチェックリスト
 
 ### 基本情報
