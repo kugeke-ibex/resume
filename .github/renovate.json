@@ -3,7 +3,6 @@
   "extends": [
     "config:best-practices",
     "schedule:daily",
-    "schedule:automergeDaily",
     ":separateMultipleMajorReleases",
     ":timezone(Asia/Tokyo)"
   ],
@@ -13,7 +12,6 @@
   "prConcurrentLimit": 0,
   "prHourlyLimit": 0,
   "automergeType": "digest",
-  "automerge": false,
   "major": {
     "labels": ["renovate", "update_major"]
   }
