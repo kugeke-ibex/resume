@@ -1,9 +1,9 @@
 ---
 name: 職務経歴書の更新
 about: 職務経歴書の内容を定期的に見直すためのリマインダー
-title: "職務経歴書の更新 - {{ date | date('YYYY年MM月') }}"
-labels: update
-assignees: ""
+title: 職務経歴書の更新【{{ date | date('YYYY/MM/DD') }}】
+labels: enhancement
+assignees: kugeke-ibex
 ---
 
 ## 更新項目のチェックリスト
