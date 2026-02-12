@@ -172,6 +172,12 @@
 | ![AWS Batch](https://img.shields.io/badge/AWS%20Batch-FF9900.svg?style=flat-square&logoColor=white)           |
 | ![Step Functions](https://img.shields.io/badge/Step%20Functions-FF9900.svg?style=flat-square&logoColor=white) |
 
+**オブザーバビリティプラットフォーム**
+
+| 技術                                                                                                          |        |
+| ------------------------------------------------------------------------------------------------------------- | ------ |
+| ![Datadog](https://img.shields.io/badge/Datadog-632CA6.svg?style=flat-square&logo=datadog&logoColor=white) | 学習中 |
+
 </div>
 
 </div>
@@ -219,6 +225,19 @@
   <tr>
     <td>プロダクトが属する業界</td>
     <td>デジタルマーケティング業界</td>
+  </tr>
+   <tr>
+    <td>担当業務・主な実績</td>
+    <td>
+      <strong>▼ 担当業務</strong><br>
+      ・広告配信に関わる機能の新規/保守開発を担当。主に詳細設計、実装、テスト、リリース作業に従事。<br><br>
+      <strong>▼ 主な実績</strong><br>
+      ・負荷ツール「Vegeta」を利用した、配信サーバーの負荷テスト作業<br>
+      ・Managed Service for Apache Flink(Scala)のシステムバージョンアップ(1.8 → 1.20)<br>
+      ・Amazon Managed Workflows for Apache Airflow(Python) のシステムバージョンアップ(2.7.2 → 2.10.3)<br>
+      ・BIツールApache Supersetのシステムバージョンアップ(1.4.1 → 5.0.0)<br>
+      ・Superset内部で利用しているAmazon ElastiCacheをRedis OSS v5からValkey 7.2にアップグレード<br>
+    </td>
   </tr>
   <tr>
     <td>開発手法</td>
