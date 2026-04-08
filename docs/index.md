@@ -12,6 +12,7 @@
 ## 各種アカウント
 
 [![Github](https://img.shields.io/badge/KENGOL-181717.svg?&style=flat-square&logo=Github&logoColor=white)](https://github.com/kugeke-ibex)
+[![LinkedIn](https://img.shields.io/static/v1?style=flat-square&logo=linkedin&logoColor=white&label=LinkedIn&labelColor=0A66C2&message=%E4%B9%85%E4%B8%8B%20%E5%85%BC%E4%BA%8C%E6%9C%97&color=0A66C2)](https://www.linkedin.com/in/%E5%85%BC%E4%BA%8C%E6%9C%97-%E4%B9%85%E4%B8%8B-ba2037345/)
 [![X](https://img.shields.io/badge/@kugeke_ibex-000000.svg?&style=flat-square&logo=x&logoColor=white)](https://x.com/kugeke_ibex)
 [![Zenn](https://img.shields.io/badge/KENGOL-3EA8FF.svg?&style=flat-square&logo=Zenn&logoColor=white)](https://zenn.dev/kengol)
 [![Wantedly](https://img.shields.io/badge/%E4%B9%85%E4%B8%8B%E5%85%BC%E4%BA%8C%E6%9C%97-21BDDB.svg?&style=flat-square&logo=Wantedly&logoColor=white)](https://www.wantedly.com/id/kenjirou_kuge_a)
@@ -24,7 +25,7 @@
 - チームマネジメントやプロダクトの改善に貢献し、メンバーの成長をサポートすることに意欲があります
 - 新しい技術やツールの採用を積極的に推進し、より良い開発環境を構築したいと考えています
 
-## 自己 PR・仕事をする上で大切にしている考え
+## 自己PRと、大切にしている仕事の進め方
 
 ### 自己 PR
 
@@ -45,142 +46,43 @@
 
 ### 実務経験での利用
 
-<div style="display: flex; gap: 15px; flex-wrap: wrap; align-items: flex-start;" markdown="1">
-
-<div style="flex: 1; min-width: 200px;" markdown="1">
-
-#### 言語
-
-| 技術                                                                                                                | 経験   |
-| ------------------------------------------------------------------------------------------------------------------- | ------ |
-| ![PHP](https://img.shields.io/badge/PHP-777BB4.svg?logo=php&style=flat-square&logoColor=white)                      | 7 年   |
-| ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E.svg?logo=javascript&style=flat-square&logoColor=black) | 5 年   |
-| ![Python](https://img.shields.io/badge/Python-3776AB.svg?logo=python&style=flat-square&logoColor=white)             | 5 年   |
-| ![Node.js](https://img.shields.io/badge/Node.js-339933.svg?logo=node.js&style=flat-square&logoColor=white)          | 2 年   |
-| ![Go](https://img.shields.io/badge/Go-00ADD8.svg?logo=go&style=flat-square&logoColor=white)                         | 7 ヶ月 |
-| ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6.svg?logo=typescript&style=flat-square&logoColor=white) | 7 ヶ月 |
-| ![Scala](https://img.shields.io/badge/Scala-DC322F.svg?logo=scala&style=flat-square&logoColor=white)                | 4 ヶ月 |
-
-</div>
-
-<div style="flex: 1; min-width: 200px;" markdown="1">
-
-#### フレームワーク
-
-| 技術                                                                                                       | 経験   |
-| ---------------------------------------------------------------------------------------------------------- | ------ |
-| ![Laravel](https://img.shields.io/badge/Laravel-FF2D20.svg?logo=laravel&style=flat-square&logoColor=white) | 7 年   |
-| ![jQuery](https://img.shields.io/badge/jQuery-0769AD.svg?logo=jquery&style=flat-square&logoColor=white)    | 5 年   |
-| ![NestJS](https://img.shields.io/badge/NestJS-E0234E.svg?logo=nestjs&style=flat-square&logoColor=white)    | 7 ヶ月 |
-| ![Gin](https://img.shields.io/badge/Gin-0099D1.svg?logo=gin&style=flat-square&logoColor=white)             | 7 ヶ月 |
-| ![Echo](https://img.shields.io/badge/Echo-00ADD8.svg?style=flat-square&logoColor=white)                    | 7 ヶ月 |
-
-</div>
-
-<div style="flex: 1; min-width: 200px;" markdown="1">
-
-#### DB・NoSQL
-
-| 技術                                                                                                                | 経験   |
-| ------------------------------------------------------------------------------------------------------------------- | ------ |
-| ![MySQL](https://img.shields.io/badge/MySQL-4479A1.svg?logo=mysql&style=flat-square&logoColor=white)                | 7 年   |
-| ![Redis](https://img.shields.io/badge/Redis-DC382D.svg?logo=redis&style=flat-square&logoColor=white)                | 5 年   |
-| ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1.svg?logo=postgresql&style=flat-square&logoColor=white) | 7 ヶ月 |
-
-</div>
-
-</div>
-
-<div style="display: flex; gap: 15px; flex-wrap: wrap; align-items: flex-start;" markdown="1">
-
-<div style="flex: 1; min-width: 200px;" markdown="1">
-
-#### その他ミドルウェア
-
-| 技術                                                                                                                              | 経験   |
-| --------------------------------------------------------------------------------------------------------------------------------- | ------ |
-| ![Selenium](https://img.shields.io/badge/Selenium-43B02A.svg?logo=selenium&style=flat-square&logoColor=white)                     | 4 年   |
-| ![Docker](https://img.shields.io/badge/Docker-2496ED.svg?logo=docker&style=flat-square&logoColor=white)                           | 4 年   |
-| ![Git](https://img.shields.io/badge/Git-F05032.svg?logo=git&style=flat-square&logoColor=white)                                    | 4 年   |
-| ![Playwright](https://img.shields.io/badge/Playwright-45BA4B.svg?logo=playwright&style=flat-square&logoColor=white)               | 1 年   |
-| ![OpenAPI](https://img.shields.io/badge/OpenAPI-6BA539.svg?logo=openapi-initiative&style=flat-square&logoColor=white)             | 7 ヶ月 |
-| ![Terraform](https://img.shields.io/badge/Terraform-844FBA.svg?logo=terraform&style=flat-square&logoColor=white)                  | 7 ヶ月 |
-| ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF.svg?logo=github-actions&style=flat-square&logoColor=white) | 7 ヶ月 |
-| ![Grafana](https://img.shields.io/badge/Grafana-F46800.svg?logo=grafana&style=flat-square&logoColor=white)                        | 7 ヶ月 |
-| ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C.svg?logo=prometheus&style=flat-square&logoColor=white)               | 7 ヶ月 |
-| ![fluentd](https://img.shields.io/badge/fluentd-0E83C8.svg?logo=fluentd&style=flat-square&logoColor=white)                        | 7 ヶ月 |
-| ![ent](https://img.shields.io/badge/ent-00ADD8.svg?logo=ent&style=flat-square&logoColor=white)                                    | 6 ヶ月 |
-| ![Atlas](https://img.shields.io/badge/Atlas-00ADD8.svg?logo=altas&style=flat-square&logoColor=white)                              | 6 ヶ月 |
-
-</div>
-
-<div style="flex: 1; min-width: 200px;" markdown="1">
-
-#### SaaS・PaaS
-
-| 技術                                                                                                                                                  | 経験 |
-| ----------------------------------------------------------------------------------------------------------------------------------------------------- | ---- |
-| ![WafCharm](https://img.shields.io/badge/WafCharm-2494B5.svg?style=flat-square&logoColor=white)                                                       | 2 年 |
-| ![Microsoft Entra ID](https://img.shields.io/badge/Microsoft%20Entra%20ID-0078D4.svg?logo=microsoft&style=flat-square&logoColor=white)                | 3 年 |
-| ![Microsoft Graph API](https://img.shields.io/badge/Microsoft%20Graph%20API-0078D4.svg?logo=microsoft&style=flat-square&logoColor=white)              | 3 年 |
-| ![Google Calendar API](https://img.shields.io/badge/Google%20Calendar%20API-4285F4.svg?logo=google&style=flat-square&logoColor=white)                 | 2 年 |
-| ![Google Sheets API](https://img.shields.io/badge/Google%20Sheets%20API-4285F4.svg?logo=google-sheets&style=flat-square&logoColor=white)              | 2 年 |
-| ![Google Cloud Vision API](https://img.shields.io/badge/Google%20Cloud%20Vision%20API-4285F4.svg?logo=google-cloud&style=flat-square&logoColor=white) | 1 年 |
-
-</div>
-
-</div>
+| 分類 | 技術（経験年数） |
+| --- | --- |
+| 言語 | ![PHP](https://img.shields.io/badge/PHP-777BB4.svg?logo=php&style=flat-square&logoColor=white) 7 年 / ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E.svg?logo=javascript&style=flat-square&logoColor=black) 5 年 / ![Python](https://img.shields.io/badge/Python-3776AB.svg?logo=python&style=flat-square&logoColor=white) 5 年 / ![Node.js](https://img.shields.io/badge/Node.js-339933.svg?logo=node.js&style=flat-square&logoColor=white) 2 年 / ![Go](https://img.shields.io/badge/Go-00ADD8.svg?logo=go&style=flat-square&logoColor=white) 11 ヶ月 / ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6.svg?logo=typescript&style=flat-square&logoColor=white) 11 ヶ月 / ![Scala](https://img.shields.io/badge/Scala-DC322F.svg?logo=scala&style=flat-square&logoColor=white) 8 ヶ月 |
+| フレームワーク | ![Laravel](https://img.shields.io/badge/Laravel-FF2D20.svg?logo=laravel&style=flat-square&logoColor=white) 7 年 / ![jQuery](https://img.shields.io/badge/jQuery-0769AD.svg?logo=jquery&style=flat-square&logoColor=white) 5 年 / ![NestJS](https://img.shields.io/badge/NestJS-E0234E.svg?logo=nestjs&style=flat-square&logoColor=white) 11 ヶ月 / ![Gin](https://img.shields.io/badge/Gin-0099D1.svg?logo=gin&style=flat-square&logoColor=white) 11 ヶ月 / ![Echo](https://img.shields.io/badge/Echo-00ADD8.svg?style=flat-square&logoColor=white) 11 ヶ月 |
+| DB・NoSQL | ![MySQL](https://img.shields.io/badge/MySQL-4479A1.svg?logo=mysql&style=flat-square&logoColor=white) 7 年 / ![Redis](https://img.shields.io/badge/Redis-DC382D.svg?logo=redis&style=flat-square&logoColor=white) 5 年 / ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1.svg?logo=postgresql&style=flat-square&logoColor=white) 11 ヶ月 |
+| その他ミドルウェア | ![Selenium](https://img.shields.io/badge/Selenium-43B02A.svg?logo=selenium&style=flat-square&logoColor=white) 4 年 / ![Docker](https://img.shields.io/badge/Docker-2496ED.svg?logo=docker&style=flat-square&logoColor=white) 5 年 / ![Git](https://img.shields.io/badge/Git-F05032.svg?logo=git&style=flat-square&logoColor=white) 5 年 / ![Playwright](https://img.shields.io/badge/Playwright-45BA4B.svg?logo=playwright&style=flat-square&logoColor=white) 1 年 / ![OpenAPI](https://img.shields.io/badge/OpenAPI-6BA539.svg?logo=openapi-initiative&style=flat-square&logoColor=white) 11 ヶ月 / ![Terraform](https://img.shields.io/badge/Terraform-844FBA.svg?logo=terraform&style=flat-square&logoColor=white) 11 ヶ月 / ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF.svg?logo=github-actions&style=flat-square&logoColor=white) 11 ヶ月 / ![Grafana](https://img.shields.io/badge/Grafana-F46800.svg?logo=grafana&style=flat-square&logoColor=white) 11 ヶ月 / ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C.svg?logo=prometheus&style=flat-square&logoColor=white) 11 ヶ月 / ![fluentd](https://img.shields.io/badge/fluentd-0E83C8.svg?logo=fluentd&style=flat-square&logoColor=white) 11 ヶ月 / ![ent](https://img.shields.io/badge/ent-00ADD8.svg?logo=ent&style=flat-square&logoColor=white) 10 ヶ月 / ![Atlas](https://img.shields.io/badge/Atlas-00ADD8.svg?logo=altas&style=flat-square&logoColor=white) 10 ヶ月 |
+| SaaS・PaaS | ![WafCharm](https://img.shields.io/badge/WafCharm-2494B5.svg?style=flat-square&logoColor=white) 2 年 / ![Microsoft Entra ID](https://img.shields.io/badge/Microsoft%20Entra%20ID-0078D4.svg?logo=microsoft&style=flat-square&logoColor=white) 3 年 / ![Microsoft Graph API](https://img.shields.io/badge/Microsoft%20Graph%20API-0078D4.svg?logo=microsoft&style=flat-square&logoColor=white) 3 年 / ![Google Calendar API](https://img.shields.io/badge/Google%20Calendar%20API-4285F4.svg?logo=google&style=flat-square&logoColor=white) 2 年 / ![Google Sheets API](https://img.shields.io/badge/Google%20Sheets%20API-4285F4.svg?logo=google-sheets&style=flat-square&logoColor=white) 2 年 / ![Google Cloud Vision API](https://img.shields.io/badge/Google%20Cloud%20Vision%20API-4285F4.svg?logo=google-cloud&style=flat-square&logoColor=white) 1 年 |
 
 #### クラウド
 
-| 技術                                                                                                  | 経験 | 利用リソース                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| 技術                                                                                                  | 経験 | 利用リソース（目的別）                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 | ----------------------------------------------------------------------------------------------------- | ---- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | ![AWS](https://img.shields.io/badge/AWS-FF9900.svg?logo=amazon-aws&style=flat-square&logoColor=white) | 6 年 | **コンピューティング:** EC2・ECS・ECR・Lambda<br>**データベース:** RDS (Aurora)・DynamoDB・ElastiCache<br>**ストレージ:** S3<br>**ネットワーク:** VPC・CloudFront・Route 53・API Gateway (REST API)<br>**セキュリティ:** Cognito・KMS・ACM・AWS WAF・SSM Parameter Store・Secrets Manager<br>**CI/CD:** CodeBuild・CodeDeploy<br>**分析・機械学習:** Athena・AWS Glue・Amazon OpenSearch Service・Managed Service for Apache Flink・Amazon EMR・Amazon Kinesis Data Streams・MWAA<br>**監視・通知:** Cloudwatch・SES・SNS・SQS・EventBridge Scheduler |
 
 ### 実務以外での利用
 
-| 技術                                                                                                                | 経験年数 |
-| ------------------------------------------------------------------------------------------------------------------- | -------- |
-| ![Go](https://img.shields.io/badge/Go-00ADD8.svg?logo=go&style=flat-square&logoColor=white)                         | 2 年     |
-| ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6.svg?logo=typescript&style=flat-square&logoColor=white) | 1.5 年   |
-| ![Terraform](https://img.shields.io/badge/Terraform-844FBA.svg?logo=terraform&style=flat-square&logoColor=white)    | 7 ヶ月   |
+| 分類 | 技術（経験年数） |
+| --- | --- |
+| 言語 | ![Go](https://img.shields.io/badge/Go-00ADD8.svg?logo=go&style=flat-square&logoColor=white) 2 年 / ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6.svg?logo=typescript&style=flat-square&logoColor=white) 1.5 年 |
+| その他ミドルウェア | ![Terraform](https://img.shields.io/badge/Terraform-844FBA.svg?logo=terraform&style=flat-square&logoColor=white) 7 ヶ月 |
 
-#### [Cloud Pratica](https://esa-pages.io/p/sharing/22089/posts/38/d4945bad94371c376867.html)（実務経験 1 年以上の現役エンジニアを対象とした高難度オンラインスクール）
+#### Cloud Pratica（実務経験 1 年以上の現役エンジニアを対象とした高難度オンラインスクール）
 
-<div style="display: flex; gap: 15px; flex-wrap: wrap; align-items: flex-start;" markdown="1">
+**関連リンク**
 
-<div style="flex: 1; min-width: 200px;" markdown="1">
+- [公式サイト](https://cloud-pratica.com/)
+- [受講案内（esa）](https://esa-pages.io/p/sharing/22089/posts/38/d4945bad94371c376867.html)
 
-**Kubernetes 関連**
-
-| 技術                                                                                                                |
-| ------------------------------------------------------------------------------------------------------------------- |
-| ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5.svg?logo=kubernetes&style=flat-square&logoColor=white) |
-| ![EKS](https://img.shields.io/badge/EKS-FF9900.svg?style=flat-square&logoColor=white)                               |
-| ![Helm](https://img.shields.io/badge/Helm-0F1689.svg?logo=helm&style=flat-square&logoColor=white)                   |
-| ![Argo CD](https://img.shields.io/badge/Argo%20CD-EF7B4D.svg?logo=argo&style=flat-square&logoColor=white)           |
-| ![Istio](https://img.shields.io/badge/Istio-466BB0.svg?logo=istio&style=flat-square&logoColor=white)                |
-
-</div>
-
-<div style="flex: 1; min-width: 200px;" markdown="1">
-
-**AWS (バッチ処理・ワークフロー)**
-
-| 技術                                                                                                          |
-| ------------------------------------------------------------------------------------------------------------- |
-| ![AWS Batch](https://img.shields.io/badge/AWS%20Batch-FF9900.svg?style=flat-square&logoColor=white)           |
-| ![Step Functions](https://img.shields.io/badge/Step%20Functions-FF9900.svg?style=flat-square&logoColor=white) |
-
-**オブザーバビリティプラットフォーム**
-
-| 技術                                                                                                          |        |
-| ------------------------------------------------------------------------------------------------------------- | ------ |
-| ![Datadog](https://img.shields.io/badge/Datadog-632CA6.svg?style=flat-square&logo=datadog&logoColor=white) | 学習中 |
-
-</div>
-
-</div>
+| 分類 | 習得技術 |
+| --- | --- |
+| Kubernetes 関連（基礎） | ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5.svg?logo=kubernetes&style=flat-square&logoColor=white) ![Minikube](https://img.shields.io/badge/Minikube-326CE5.svg?style=flat-square&logoColor=white) ![kubectl](https://img.shields.io/badge/kubectl-326CE5.svg?style=flat-square&logoColor=white) ![Pod](https://img.shields.io/badge/Pod-326CE5.svg?style=flat-square&logoColor=white) ![Deployment](https://img.shields.io/badge/Deployment-326CE5.svg?style=flat-square&logoColor=white) ![Service](https://img.shields.io/badge/Service-326CE5.svg?style=flat-square&logoColor=white) ![Ingress](https://img.shields.io/badge/Ingress-326CE5.svg?style=flat-square&logoColor=white) ![ConfigMap](https://img.shields.io/badge/ConfigMap-326CE5.svg?style=flat-square&logoColor=white) ![Secret](https://img.shields.io/badge/Secret-326CE5.svg?style=flat-square&logoColor=white) ![Job](https://img.shields.io/badge/Job-326CE5.svg?style=flat-square&logoColor=white) ![CronJob](https://img.shields.io/badge/CronJob-326CE5.svg?style=flat-square&logoColor=white) ![StatefulSet](https://img.shields.io/badge/StatefulSet-326CE5.svg?style=flat-square&logoColor=white) ![PV/PVC](https://img.shields.io/badge/PV%2FPVC-326CE5.svg?style=flat-square&logoColor=white) ![HPA](https://img.shields.io/badge/HPA-326CE5.svg?style=flat-square&logoColor=white) |
+| Kubernetes 関連（応用・運用） | ![EKS](https://img.shields.io/badge/EKS-FF9900.svg?style=flat-square&logoColor=white) ![Kustomize](https://img.shields.io/badge/Kustomize-326CE5.svg?style=flat-square&logoColor=white) ![Helm](https://img.shields.io/badge/Helm-0F1689.svg?logo=helm&style=flat-square&logoColor=white) ![Argo CD](https://img.shields.io/badge/Argo%20CD-EF7B4D.svg?logo=argo&style=flat-square&logoColor=white) ![Argo CD Image Updater](https://img.shields.io/badge/Argo%20CD%20Image%20Updater-EF7B4D.svg?style=flat-square&logoColor=white) ![Grafana](https://img.shields.io/badge/Grafana-F46800.svg?logo=grafana&style=flat-square&logoColor=white) ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C.svg?logo=prometheus&style=flat-square&logoColor=white) ![Fluent Bit](https://img.shields.io/badge/Fluent%20Bit-49BDA5.svg?style=flat-square&logoColor=white) ![ALB Controller](https://img.shields.io/badge/ALB%20Controller-FF9900.svg?style=flat-square&logoColor=white) ![Istio](https://img.shields.io/badge/Istio-466BB0.svg?logo=istio&style=flat-square&logoColor=white) ![External Secrets Operator](https://img.shields.io/badge/External%20Secrets%20Operator-326CE5.svg?style=flat-square&logoColor=white) ![Pod Identity](https://img.shields.io/badge/Pod%20Identity-FF9900.svg?style=flat-square&logoColor=white) |
+| AWS（サーバレスAPI・認証・ワークフロー） | ![API Gateway](https://img.shields.io/badge/API%20Gateway-FF9900.svg?style=flat-square&logoColor=white) ![gRPC](https://img.shields.io/badge/gRPC-244C5A.svg?style=flat-square&logoColor=white) ![Cognito](https://img.shields.io/badge/Cognito-FF9900.svg?style=flat-square&logoColor=white) ![Step Functions](https://img.shields.io/badge/Step%20Functions-FF9900.svg?style=flat-square&logoColor=white) ![AWS Batch](https://img.shields.io/badge/AWS%20Batch-FF9900.svg?style=flat-square&logoColor=white) ![Amplify](https://img.shields.io/badge/Amplify-FF9900.svg?style=flat-square&logo=awsamplify&logoColor=white) ![RDS Proxy](https://img.shields.io/badge/RDS%20Proxy-527FFF.svg?style=flat-square&logoColor=white) ![CloudFront Functions](https://img.shields.io/badge/CloudFront%20Functions-FF9900.svg?style=flat-square&logoColor=white) ![Lambda@Edge](https://img.shields.io/badge/Lambda%40Edge-FF9900.svg?style=flat-square&logoColor=white) ![AWS Backup](https://img.shields.io/badge/AWS%20Backup-FF9900.svg?style=flat-square&logoColor=white) ![FireLens](https://img.shields.io/badge/FireLens-FF9900.svg?logo=amazon-aws&style=flat-square&logoColor=white) |
+| オブザーバビリティ（Datadog） | ![Datadog Agent](https://img.shields.io/badge/Datadog%20Agent-632CA6.svg?style=flat-square&logo=datadog&logoColor=white) ![AWS Integration](https://img.shields.io/badge/AWS%20Integration-632CA6.svg?style=flat-square&logo=datadog&logoColor=white) ![Metrics](https://img.shields.io/badge/Metrics-632CA6.svg?style=flat-square&logo=datadog&logoColor=white) ![Logs](https://img.shields.io/badge/Logs-632CA6.svg?style=flat-square&logo=datadog&logoColor=white) ![Trace](https://img.shields.io/badge/Trace-632CA6.svg?style=flat-square&logo=datadog&logoColor=white) ![APM](https://img.shields.io/badge/APM-632CA6.svg?style=flat-square&logo=datadog&logoColor=white) ![SLO/SLI](https://img.shields.io/badge/SLO%2FSLI-632CA6.svg?style=flat-square&logo=datadog&logoColor=white) ![Dashboard](https://img.shields.io/badge/Dashboard-632CA6.svg?style=flat-square&logo=datadog&logoColor=white) ![Monitor](https://img.shields.io/badge/Monitor-632CA6.svg?style=flat-square&logo=datadog&logoColor=white) |
+| Google Cloud（実行基盤） | ![Compute Engine](https://img.shields.io/badge/Compute%20Engine-4285F4.svg?style=flat-square&logo=googlecloud&logoColor=white) ![Cloud Run](https://img.shields.io/badge/Cloud%20Run-4285F4.svg?style=flat-square&logo=googlecloud&logoColor=white) ![Cloud Run Jobs](https://img.shields.io/badge/Cloud%20Run%20Jobs-4285F4.svg?style=flat-square&logo=googlecloud&logoColor=white) ![Cloud Scheduler](https://img.shields.io/badge/Cloud%20Scheduler-4285F4.svg?style=flat-square&logo=googlecloud&logoColor=white) ![Cloud Tasks](https://img.shields.io/badge/Cloud%20Tasks-4285F4.svg?style=flat-square&logo=googlecloud&logoColor=white) |
+| Google Cloud（データ/ネットワーク） | ![Cloud SQL](https://img.shields.io/badge/Cloud%20SQL-4285F4.svg?style=flat-square&logo=googlecloud&logoColor=white) ![Cloud SQL Auth Proxy](https://img.shields.io/badge/Cloud%20SQL%20Auth%20Proxy-4285F4.svg?style=flat-square&logo=googlecloud&logoColor=white) ![VPC](https://img.shields.io/badge/VPC-4285F4.svg?style=flat-square&logo=googlecloud&logoColor=white) ![Cloud DNS](https://img.shields.io/badge/Cloud%20DNS-4285F4.svg?style=flat-square&logo=googlecloud&logoColor=white) ![Firewall Rules](https://img.shields.io/badge/Firewall%20Rules-4285F4.svg?style=flat-square&logo=googlecloud&logoColor=white) |
+| Google Cloud（配信/セキュリティ・CI/CD） | ![Cloud Load Balancing](https://img.shields.io/badge/Cloud%20Load%20Balancing-4285F4.svg?style=flat-square&logo=googlecloud&logoColor=white) ![Cloud CDN](https://img.shields.io/badge/Cloud%20CDN-4285F4.svg?style=flat-square&logo=googlecloud&logoColor=white) ![Cloud Storage](https://img.shields.io/badge/Cloud%20Storage-4285F4.svg?style=flat-square&logo=googlecloud&logoColor=white) ![Cloud Armor](https://img.shields.io/badge/Cloud%20Armor-4285F4.svg?style=flat-square&logo=googlecloud&logoColor=white) ![IAM](https://img.shields.io/badge/IAM-4285F4.svg?style=flat-square&logo=googlecloud&logoColor=white) ![Secret Manager](https://img.shields.io/badge/Secret%20Manager-4285F4.svg?style=flat-square&logo=googlecloud&logoColor=white) ![Certificate Manager](https://img.shields.io/badge/Certificate%20Manager-4285F4.svg?style=flat-square&logo=googlecloud&logoColor=white) ![Artifact Registry](https://img.shields.io/badge/Artifact%20Registry-4285F4.svg?style=flat-square&logo=googlecloud&logoColor=white) ![Cloud Build](https://img.shields.io/badge/Cloud%20Build-4285F4.svg?style=flat-square&logo=googlecloud&logoColor=white) |
 
 ## 職務経歴詳細
 
