@@ -11,8 +11,8 @@
 
 ## 職務要約
 
-- Web 系バックエンドエンジニアとして約 6 年。人材・採用 SaaS のチームリーダー／グループマネージャー（4 〜 7 名規模、**約 2 年半**）を経て、現在はデジタルマーケティング領域における大規模な配信基盤の開発・運用に従事
-- コアスキル: **AWS マネージドサービスの設計・運用（6 年、直近は ETL／ストリーム処理基盤の運用改善に注力）／ Go・TypeScript・PHP**
+- Web 系バックエンドエンジニアとして約 7 年。人材・採用 SaaS のチームリーダー／グループマネージャー（4 〜 7 名規模、**約 2 年半**）を経て、現在はデジタルマーケティング領域における大規模な配信基盤の開発・運用に従事
+- コアスキル: **AWS マネージドサービスの設計・運用（7 年、直近は ETL／ストリーム処理基盤の運用改善に注力）／ Go・TypeScript・PHP**
 - 特に得意とするのは、EOS／EOL 対応や監査対応、パフォーマンス改善を通じて、既存基盤の信頼性とスケーラビリティを継続的に高めていくこと
 - DDD・オブジェクト指向に関心が強く、変更容易性の高い設計と、他部署を巻き込んだスピード感のある開発推進を強みとする
 
@@ -26,7 +26,7 @@
 [![Qiita](https://img.shields.io/badge/@kugeke_ibex-55C500.svg?&style=flat-square&logo=Qiita&logoColor=white)](https://qiita.com/kugeke-ibex)
 [![Speaker Deck](https://img.shields.io/badge/kugeke-009287.svg?&style=flat-square&logo=speakerdeck&logoColor=white)](https://speakerdeck.com/kugeke)
 [![note](https://img.shields.io/badge/KENGOL-41C9B4.svg?&style=flat-square&logo=note&logoColor=white)](https://note.com/fancy_elk5864)
-[![connpass](https://img.shields.io/badge/KENGOL-ED1C24.svg?&style=flat-square&logo=connpass&logoColor=white)](https://connpass.com/user/kugeke-ibex/)
+[![connpass](https://img.shields.io/static/v1?style=flat-square&logo=connpass&logoColor=white&label=connpass&labelColor=ED1C24&message=KENGOL&color=ED1C24)](https://connpass.com/user/kugeke-ibex/)
 
 ## 意欲・興味（今後挑戦したいこと）
 
@@ -79,27 +79,6 @@
 | --- | --- |
 | 言語 | ![Go](https://img.shields.io/badge/Go-00ADD8.svg?logo=go&style=flat-square&logoColor=white) 2 年 / ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6.svg?logo=typescript&style=flat-square&logoColor=white) 1.5 年 |
 | その他ミドルウェア | ![Terraform](https://img.shields.io/badge/Terraform-844FBA.svg?logo=terraform&style=flat-square&logoColor=white) 7 ヶ月 |
-
-## 学習履歴
-
-### Cloud Pratica（オンラインスクール）
-
-実務経験 1 年以上の現役エンジニアを対象としたオンラインスクール。実務でまだ触れていない Kubernetes、Datadog、Google Cloud などのクラウドネイティブ領域を体系的に習得。
-
-**関連リンク**
-
-- [公式サイト](https://cloud-pratica.com/)
-- [受講案内（esa）](https://esa-pages.io/p/sharing/22089/posts/38/d4945bad94371c376867.html)
-
-| 分類 | 習得技術 |
-| --- | --- |
-| Kubernetes 関連（基礎） | ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5.svg?logo=kubernetes&style=flat-square&logoColor=white) ![Minikube](https://img.shields.io/badge/Minikube-326CE5.svg?style=flat-square&logoColor=white) ![kubectl](https://img.shields.io/badge/kubectl-326CE5.svg?style=flat-square&logoColor=white) ![Pod](https://img.shields.io/badge/Pod-326CE5.svg?style=flat-square&logoColor=white) ![Deployment](https://img.shields.io/badge/Deployment-326CE5.svg?style=flat-square&logoColor=white) ![Service](https://img.shields.io/badge/Service-326CE5.svg?style=flat-square&logoColor=white) ![Ingress](https://img.shields.io/badge/Ingress-326CE5.svg?style=flat-square&logoColor=white) ![ConfigMap](https://img.shields.io/badge/ConfigMap-326CE5.svg?style=flat-square&logoColor=white) ![Secret](https://img.shields.io/badge/Secret-326CE5.svg?style=flat-square&logoColor=white) ![Job](https://img.shields.io/badge/Job-326CE5.svg?style=flat-square&logoColor=white) ![CronJob](https://img.shields.io/badge/CronJob-326CE5.svg?style=flat-square&logoColor=white) ![StatefulSet](https://img.shields.io/badge/StatefulSet-326CE5.svg?style=flat-square&logoColor=white) ![PV/PVC](https://img.shields.io/badge/PV%2FPVC-326CE5.svg?style=flat-square&logoColor=white) ![HPA](https://img.shields.io/badge/HPA-326CE5.svg?style=flat-square&logoColor=white) |
-| Kubernetes 関連（応用・運用） | ![EKS](https://img.shields.io/badge/EKS-FF9900.svg?style=flat-square&logoColor=white) ![Kustomize](https://img.shields.io/badge/Kustomize-326CE5.svg?style=flat-square&logoColor=white) ![Helm](https://img.shields.io/badge/Helm-0F1689.svg?logo=helm&style=flat-square&logoColor=white) ![Argo CD](https://img.shields.io/badge/Argo%20CD-EF7B4D.svg?logo=argo&style=flat-square&logoColor=white) ![Argo CD Image Updater](https://img.shields.io/badge/Argo%20CD%20Image%20Updater-EF7B4D.svg?style=flat-square&logoColor=white) ![Grafana](https://img.shields.io/badge/Grafana-F46800.svg?logo=grafana&style=flat-square&logoColor=white) ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C.svg?logo=prometheus&style=flat-square&logoColor=white) ![Fluent Bit](https://img.shields.io/badge/Fluent%20Bit-49BDA5.svg?style=flat-square&logoColor=white) ![ALB Controller](https://img.shields.io/badge/ALB%20Controller-FF9900.svg?style=flat-square&logoColor=white) ![Istio](https://img.shields.io/badge/Istio-466BB0.svg?logo=istio&style=flat-square&logoColor=white) ![External Secrets Operator](https://img.shields.io/badge/External%20Secrets%20Operator-326CE5.svg?style=flat-square&logoColor=white) ![Pod Identity](https://img.shields.io/badge/Pod%20Identity-FF9900.svg?style=flat-square&logoColor=white) |
-| AWS（サーバレス API・認証・ワークフロー） | ![API Gateway](https://img.shields.io/badge/API%20Gateway-FF9900.svg?style=flat-square&logoColor=white) ![gRPC](https://img.shields.io/badge/gRPC-244C5A.svg?style=flat-square&logoColor=white) ![Cognito](https://img.shields.io/badge/Cognito-FF9900.svg?style=flat-square&logoColor=white) ![Step Functions](https://img.shields.io/badge/Step%20Functions-FF9900.svg?style=flat-square&logoColor=white) ![AWS Batch](https://img.shields.io/badge/AWS%20Batch-FF9900.svg?style=flat-square&logoColor=white) ![Amplify](https://img.shields.io/badge/Amplify-FF9900.svg?style=flat-square&logo=awsamplify&logoColor=white) ![RDS Proxy](https://img.shields.io/badge/RDS%20Proxy-527FFF.svg?style=flat-square&logoColor=white) ![CloudFront Functions](https://img.shields.io/badge/CloudFront%20Functions-FF9900.svg?style=flat-square&logoColor=white) ![Lambda@Edge](https://img.shields.io/badge/Lambda%40Edge-FF9900.svg?style=flat-square&logoColor=white) ![AWS Backup](https://img.shields.io/badge/AWS%20Backup-FF9900.svg?style=flat-square&logoColor=white) ![FireLens](https://img.shields.io/badge/FireLens-FF9900.svg?logo=amazon-aws&style=flat-square&logoColor=white) |
-| オブザーバビリティ（Datadog） | ![Datadog Agent](https://img.shields.io/badge/Datadog%20Agent-632CA6.svg?style=flat-square&logo=datadog&logoColor=white) ![AWS Integration](https://img.shields.io/badge/AWS%20Integration-632CA6.svg?style=flat-square&logo=datadog&logoColor=white) ![Metrics](https://img.shields.io/badge/Metrics-632CA6.svg?style=flat-square&logo=datadog&logoColor=white) ![Logs](https://img.shields.io/badge/Logs-632CA6.svg?style=flat-square&logo=datadog&logoColor=white) ![Trace](https://img.shields.io/badge/Trace-632CA6.svg?style=flat-square&logo=datadog&logoColor=white) ![APM](https://img.shields.io/badge/APM-632CA6.svg?style=flat-square&logo=datadog&logoColor=white) ![SLO/SLI](https://img.shields.io/badge/SLO%2FSLI-632CA6.svg?style=flat-square&logo=datadog&logoColor=white) ![Dashboard](https://img.shields.io/badge/Dashboard-632CA6.svg?style=flat-square&logo=datadog&logoColor=white) ![Monitor](https://img.shields.io/badge/Monitor-632CA6.svg?style=flat-square&logo=datadog&logoColor=white) |
-| Google Cloud（実行基盤） | ![Compute Engine](https://img.shields.io/badge/Compute%20Engine-4285F4.svg?style=flat-square&logo=googlecloud&logoColor=white) ![Cloud Run](https://img.shields.io/badge/Cloud%20Run-4285F4.svg?style=flat-square&logo=googlecloud&logoColor=white) ![Cloud Run Jobs](https://img.shields.io/badge/Cloud%20Run%20Jobs-4285F4.svg?style=flat-square&logo=googlecloud&logoColor=white) ![Cloud Scheduler](https://img.shields.io/badge/Cloud%20Scheduler-4285F4.svg?style=flat-square&logo=googlecloud&logoColor=white) ![Cloud Tasks](https://img.shields.io/badge/Cloud%20Tasks-4285F4.svg?style=flat-square&logo=googlecloud&logoColor=white) |
-| Google Cloud（データ/ネットワーク） | ![Cloud SQL](https://img.shields.io/badge/Cloud%20SQL-4285F4.svg?style=flat-square&logo=googlecloud&logoColor=white) ![Cloud SQL Auth Proxy](https://img.shields.io/badge/Cloud%20SQL%20Auth%20Proxy-4285F4.svg?style=flat-square&logo=googlecloud&logoColor=white) ![VPC](https://img.shields.io/badge/VPC-4285F4.svg?style=flat-square&logo=googlecloud&logoColor=white) ![Cloud DNS](https://img.shields.io/badge/Cloud%20DNS-4285F4.svg?style=flat-square&logo=googlecloud&logoColor=white) ![Firewall Rules](https://img.shields.io/badge/Firewall%20Rules-4285F4.svg?style=flat-square&logo=googlecloud&logoColor=white) |
-| Google Cloud（配信/セキュリティ・CI/CD） | ![Cloud Load Balancing](https://img.shields.io/badge/Cloud%20Load%20Balancing-4285F4.svg?style=flat-square&logo=googlecloud&logoColor=white) ![Cloud CDN](https://img.shields.io/badge/Cloud%20CDN-4285F4.svg?style=flat-square&logo=googlecloud&logoColor=white) ![Cloud Storage](https://img.shields.io/badge/Cloud%20Storage-4285F4.svg?style=flat-square&logo=googlecloud&logoColor=white) ![Cloud Armor](https://img.shields.io/badge/Cloud%20Armor-4285F4.svg?style=flat-square&logo=googlecloud&logoColor=white) ![IAM](https://img.shields.io/badge/IAM-4285F4.svg?style=flat-square&logo=googlecloud&logoColor=white) ![Secret Manager](https://img.shields.io/badge/Secret%20Manager-4285F4.svg?style=flat-square&logo=googlecloud&logoColor=white) ![Certificate Manager](https://img.shields.io/badge/Certificate%20Manager-4285F4.svg?style=flat-square&logo=googlecloud&logoColor=white) ![Artifact Registry](https://img.shields.io/badge/Artifact%20Registry-4285F4.svg?style=flat-square&logo=googlecloud&logoColor=white) ![Cloud Build](https://img.shields.io/badge/Cloud%20Build-4285F4.svg?style=flat-square&logo=googlecloud&logoColor=white) |
 
 ## 職務経歴詳細
 
@@ -414,3 +393,121 @@
 </table>
 
 </details>
+
+## 学習履歴
+
+現役 SRE の方のメンタリングを受けつつ、プライベートでインフラ学習を継続中。実務で扱う **AWS・Terraform** の設計力を深めながら、業務未経験の **Kubernetes（EKS）・Google Cloud** をキャッチアップしており、直近は以下の構成をハンズオンで設計・構築。
+
+### AWS（ECS ベースの Web アプリケーション基盤）
+
+![AWS アーキテクチャ図](./image/aws_practice.png)
+
+#### 配信レイヤ
+
+- CloudFront + S3（静的）+ Amplify（SPA）でエッジ配信。`/static/*` は S3、それ以外は Amplify をオリジンにビヘイビアで振り分け
+- S3 は OAC で CloudFront からのアクセスのみ許可し、バケットの直接公開は回避
+- Route 53 / ACM で名前解決と HTTPS 証明書の自動更新
+
+#### ネットワーク
+
+- フルマネージドな NAT Gateway ではなく、EC2 を NAT インスタンスとして構築（テスト環境前提で **コスト削減と学習** を目的）
+
+#### セキュリティ
+
+- ALB に AWS WAF を関連付けし、アプリ層防御を実装
+- Secrets Manager で DB 接続情報・API キーを管理し、ECS タスク定義の `secrets` から参照（コードへの直書きや Git へのコミットを排除）
+- 運用アクセスは SSM Session Manager のポートフォワーディングで実現し、SSH キーの管理や 22 番インバウンドの開放が不要
+
+#### コンテナ実行基盤（ECS on Fargate）
+
+- 用途別に 3 種類のサービス／タスクを分離
+  - **API サービス**: 常時稼働 + オートスケーリング
+  - **DB マイグレーション タスク**: デプロイ前に 1 回だけ実行
+  - **バッチ タスク**: EventBridge Scheduler から定期起動（Lambda を介さず `RunTask` で直接起動）
+
+#### 非同期・通知
+
+- SQS: 非同期処理の流量制御 + DLQ による失敗メッセージ隔離
+- SES: システム通知・ユーザー向けメール配信
+
+#### CI/CD
+
+- ECR のイメージタグを **IMMUTABLE** に設定した上で、GitHub Actions で Docker イメージをビルドし ECR に push（上書き防止と再現性確保）
+- ecspresso で ECS タスク定義・サービス定義を IaC 管理し、`ecspresso deploy` で環境反映
+
+### Kubernetes（EKS + Istio + Argo CD によるコンテナ運用基盤）
+
+![EKS アーキテクチャ図](./image/kubernetes_advanced.png)
+
+#### ネットワーク / 外部公開
+
+- ALB（Public Subnet）で TLS 終端（ACM）し、**AWS Load Balancer Controller** が Istio Ingress Gateway の Pod IP を ALB のターゲットグループ（**IP モード**）へ自動登録
+- 外部トラフィックは ALB → Istio Ingress Gateway（Envoy プロキシ）を経由し、VirtualService で各アプリへルーティング
+
+#### サービスメッシュ（Istio）
+
+- Istio Ingress Gateway（Envoy）で南北トラフィック（外部 → クラスタ内）を制御
+- Service（ClusterIP）・VirtualService で東西トラフィック（アプリ間通信）のルーティングを構成
+
+#### セキュリティ / シークレット管理
+
+- **External Secrets Operator** で AWS Secrets Manager から値を同期し、ClusterSecretStore / ExternalSecret 経由で k8s Secret を生成し、Pod に注入
+- **Pod Identity Association** で ServiceAccount と IAM ロールを紐付け、**Pod Identity Agent**（DaemonSet）が認証を仲介することで、アクセスキー配布なしに AWS API を呼び出し
+- Secret（秘匿値）と ConfigMap（非秘匿設定）を分離して環境変数として Pod に渡す
+
+#### オブザーバビリティ
+
+- **Prometheus**（StatefulSet + PV）でメトリクスを収集、**Grafana**（Deployment + PV）で可視化
+- **Fluent Bit**（DaemonSet）で各ノードのコンテナログをパース・フィルタリングし、**CloudWatch Logs** へ転送
+
+#### ワークロード種別の使い分け
+
+- **Deployment**: 常時稼働の API（アプリケーション本体）
+- **StatefulSet**: Prometheus など永続データを持つサービス
+- **DaemonSet**: 各ノードに Pod を 1 つずつ配置するワークロード。本構成では以下の 2 種類を運用
+  - **Fluent Bit**: ノード上のコンテナログを収集・加工し、CloudWatch Logs へ転送
+  - **Pod Identity Agent**: Pod が ServiceAccount に紐付けた IAM ロールを引き受ける際の認証をノード上で仲介
+- **CronJob**: 定期バッチ処理
+- **Job**: デプロイ時の DB マイグレーション（ワンショット実行）
+
+#### CI/CD（GitOps）
+
+- **Kustomize** で環境ごとに異なる値と共通設定を一元管理し、YAML の重複を排除して DRY に構成
+- **Helm** で Prometheus / Grafana などモニタリング系 OSS を導入し、Argo CD から Helm チャート単位でデプロイ・同期
+- GitHub Actions で Docker イメージをビルドし ECR に push
+- **Argo CD Image Updater** が ECR を監視し、新しいイメージタグを GitHub のマニフェストへ自動で書き戻し
+- **Argo CD** が GitHub を監視し、クラスタへリソースを同期（**GitOps** による宣言的デプロイ）
+
+### Google Cloud（Cloud Run ベースのサーバレス基盤）
+
+![Google Cloud アーキテクチャ図](./image/gc_practice.png)
+
+#### 配信レイヤ
+
+- Cloud Load Balancing で TLS 終端（**Certificate Manager** で発行・自動更新される SSL/TLS 証明書をアタッチ）
+- 静的コンテンツは **Cloud Storage** をオリジンに **Cloud CDN** 経由で配信し、動的リクエストは Cloud Run へルーティング
+- **Cloud DNS** でドメインの名前解決
+
+#### ネットワーク / セキュリティ
+
+- Cloud Load Balancing に **Cloud Armor** をアタッチし、WAF マネージドルール・レート制限でアプリ層防御を実装
+- **Secret Manager** で DB 接続情報・API キーなど秘匿値を一元管理し、Cloud Run の環境変数から参照
+- 運用アクセスは踏み台サーバ（GCE）+ **IAP（Identity-Aware Proxy）** のポートフォワーディングで Cloud SQL へ接続し、GCE に外部 IP の開放や SSH キー配布が不要
+
+#### コンテナ実行基盤（Cloud Run）
+
+- 用途別に 3 種類の Cloud Run を使い分け
+  - **API（Cloud Run サービス）**: HTTPS リクエストを受け付けるリクエスト駆動コンテナ（アイドル時はゼロスケール）
+  - **非同期処理ワーカー（Cloud Run サービス）**: Cloud Tasks からディスパッチされ、重い処理を API からオフロード
+  - **バッチ（Cloud Run Jobs）**: Cloud Scheduler から起動するワンショットのコンテナ
+- **Artifact Registry** にビルド済み Docker イメージを格納し、各 Cloud Run が同レジストリを参照
+
+#### 非同期・バッチ
+
+- **Cloud Tasks**: 非同期処理用キュー。流量制御・再試行で API → ワーカー間の処理負荷を分散
+- **Cloud Scheduler**: cron 形式で Cloud Run Jobs を定期起動
+
+#### CI/CD
+
+- **Cloud Build** が GitHub のプッシュを監視し、Docker イメージをビルドして Artifact Registry へ push
+- 同パイプラインから Cloud Run への自動デプロイまで一気通貫で実行
