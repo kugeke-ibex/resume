@@ -5,7 +5,7 @@ const base = "/resume/";
 // Project Pages の場合はリポジトリ名に合わせる（ユーザーサイトなら "/"）
 // 参考: https://vitepress.dev/guide/deploy#github-pages
 export default defineConfig({
-  title: "職務経歴書",
+  title: "CV of KENGOL",
   description: "久下兼二朗の職務経歴書",
   lang: "ja",
   base,
