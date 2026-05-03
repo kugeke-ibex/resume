@@ -15,6 +15,26 @@ h1:first-child {
 h2 {
   margin-top: 18px;
   margin-bottom: 8px;
+  /* 見出しだけがページ末尾に残るのを抑える（後続に最低限一緒に載せる） */
+  page-break-after: avoid;
+  break-after: avoid;
+}
+
+/* 職務経歴詳細は常に新ページ先頭から開始（直前ページに見出しだけが残る現象の解消） */
+h2.pdf-section-career {
+  page-break-before: always;
+  break-before: page;
+  margin-top: 0;
+}
+
+/* 詳細見出しと直後の小見出しを同一ページに確保（見出しだけフッタ付近に残すのを抑止） */
+.pdf-career-detail-lead {
+  page-break-inside: avoid;
+  break-inside: avoid;
+}
+
+.pdf-career-detail-lead h3 {
+  margin-top: 8px;
 }
 
 h3 {
@@ -26,6 +46,13 @@ h4 {
   margin-top: 10px;
   margin-bottom: 4px;
   font-size: 12px;
+}
+
+h5 {
+  margin-top: 8px;
+  margin-bottom: 3px;
+  font-size: 11px;
+  font-weight: bold;
 }
 
 p {
@@ -62,15 +89,114 @@ img[src$=".jpeg"] {
 table {
   font-size: 10px;
   width: 100%;
+  max-width: 100%;
   margin-bottom: 16px;
   border-collapse: collapse;
+  word-break: normal;
+  overflow-wrap: break-word;
+}
+
+/* 職務経歴インデックス: 行単位で段落ちしにくくし、日本語の不自然な禁則改行を抑える */
+.career-index {
+  page-break-inside: avoid;
+  break-inside: avoid;
+}
+
+.career-index table {
+  font-size: 9.5px;
+  line-break: strict;
+  table-layout: fixed;
+}
+
+.career-index thead {
+  display: table-header-group;
+}
+
+.career-index tr {
+  break-inside: avoid;
+  page-break-inside: avoid;
+}
+
+.career-index th,
+.career-index td {
+  padding: 3px 4px;
+  overflow-wrap: anywhere;
+  word-break: normal;
+}
+
+/* 6 列構成での列幅（合計 100%）。期間は最長 17 文字に合わせ nowrap で 1 行収め。 */
+.career-index th:nth-child(1),
+.career-index td:nth-child(1) {
+  width: 19%;
+  white-space: nowrap;
+}
+.career-index th:nth-child(2),
+.career-index td:nth-child(2) {
+  width: 17%;
+}
+.career-index th:nth-child(3),
+.career-index td:nth-child(3) {
+  width: 11%;
+}
+.career-index th:nth-child(4),
+.career-index td:nth-child(4) {
+  width: 17%;
+}
+.career-index th:nth-child(5),
+.career-index td:nth-child(5) {
+  width: 14%;
+}
+.career-index th:nth-child(6),
+.career-index td:nth-child(6) {
+  width: 22%;
+}
+
+/* インデックス見出しブロック直後の表と離れないようする */
+.pdf-career-detail-lead + .career-index {
+  page-break-before: avoid;
+  break-before: avoid;
+}
+
+/* 各案件の「経験技術」表（区分 | 内容 の 2 列）レイアウト */
+.career-tech table {
+  font-size: 9.5px;
+  line-break: strict;
+  table-layout: fixed;
+}
+
+.career-tech thead {
+  display: table-header-group;
+}
+
+.career-tech tr {
+  break-inside: avoid;
+  page-break-inside: avoid;
+}
+
+.career-tech th,
+.career-tech td {
+  padding: 3px 5px;
+  overflow-wrap: anywhere;
+  word-break: normal;
+}
+
+.career-tech th:nth-child(1),
+.career-tech td:nth-child(1) {
+  width: 18%;
+  white-space: nowrap;
+}
+
+.career-tech th:nth-child(2),
+.career-tech td:nth-child(2) {
+  width: 82%;
 }
 
 td,
 th {
   border: 1px solid #ddd;
-  padding: 4px;
+  padding: 4px 5px;
   text-align: left;
+  vertical-align: top;
 }
 
 tr:nth-child(even) {
