@@ -36,7 +36,7 @@ jobs:
       - name: Build VitePress
         run: yarn docs:build
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@7efc4137ae0978a77ca5d0a9c7932cfd09c7328b # v4.0.0
+        uses: actions/upload-pages-artifact@7b1f4a764d45c48632c6b24a0339c27f5614fb0b # v4.0.0
         with:
           path: docs/.vitepress/dist
 
@@ -45,10 +45,13 @@ jobs:
     needs: build
     runs-on: ubuntu-latest
     timeout-minutes: 10
+    permissions:
+      pages: write
+      id-token: write
     environment:
       name: github-pages
       url: ${{ steps.deploy.outputs.page_url }}
     steps:
       - name: Deploy
         id: deploy
-        uses: actions/deploy-pages@d6db90164ac5ed86f6b5afc7c909345cacfbc418 # v4.0.5
+        uses: actions/deploy-pages@cd2ce8fcbc39b97be8ca5fce6e763baed58fa128 # v5.0.0
