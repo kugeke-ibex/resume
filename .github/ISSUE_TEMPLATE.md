@@ -6,7 +6,7 @@ assignees: kugeke-ibex
 
 # やること
 
-- 四半期が経過したため、この期間の成果を職務経歴書(docs/index.md)に記載する
+- 四半期が経過したため、この期間の成果を職務経歴書に記載する（**PDF**: `pdf/index.md`、**GitHub Pages（VitePress）**: `docs/index.md`。内容は必要に応じて両方更新）
 
 ## 更新項目のチェックリスト
 

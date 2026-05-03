@@ -1,0 +1,218 @@
+/**
+ * VitePress カスタム（職務経歴書向けレイアウト・アウトプットカード）
+ */
+:root {
+  --vp-font-family-base: "Inter", "Noto Sans JP", "Hiragino Sans", "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+  --resume-border: var(--vp-c-divider);
+  --resume-card-bg: var(--vp-c-bg-soft);
+  --resume-accent: var(--vp-c-brand-1);
+}
+
+/* 本文全般 */
+.vp-doc {
+  font-size: 15px;
+  line-height: 1.7;
+  overflow-x: auto;
+  overflow-wrap: break-word;
+}
+
+.vp-doc h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--resume-border);
+  margin-bottom: 1.25rem;
+}
+
+.vp-doc h2 {
+  margin-top: 2.25rem;
+  margin-bottom: 0.75rem;
+  padding-bottom: 0.35rem;
+  border-bottom: 1px solid var(--resume-border);
+  font-size: 1.25rem;
+}
+
+.vp-doc h3 {
+  margin-top: 1.5rem;
+  font-size: 1.08rem;
+}
+
+/* 各種アカウント（バッジ行） */
+.resume-account-badges {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.4rem 0.5rem;
+  margin: 0.5rem 0 0.25rem;
+  line-height: 1;
+}
+
+.resume-account-badges a {
+  display: inline-flex;
+  line-height: 0;
+  border-radius: 6px;
+  transition: transform 0.12s ease, box-shadow 0.12s ease;
+}
+
+.resume-account-badges a:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.resume-account-badges img {
+  display: block;
+  vertical-align: middle;
+}
+
+/* アウトプット（カードグリッド） */
+.resume-output-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 0.85rem;
+  margin: 1rem 0 0.5rem;
+}
+
+.resume-output-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  padding: 1rem 1.1rem;
+  border: 1px solid var(--resume-border);
+  border-radius: 10px;
+  background: var(--resume-card-bg);
+  text-decoration: none !important;
+  color: inherit !important;
+  transition:
+    border-color 0.15s ease,
+    box-shadow 0.15s ease,
+    transform 0.12s ease;
+}
+
+.resume-output-card:hover {
+  border-color: var(--resume-accent);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.07);
+  transform: translateY(-2px);
+}
+
+.resume-output-card__service {
+  font-weight: 700;
+  font-size: 1.05rem;
+  letter-spacing: 0.02em;
+}
+
+.resume-output-card__desc {
+  font-size: 0.82rem;
+  color: var(--vp-c-text-2);
+}
+
+.resume-output-card__id {
+  font-size: 0.8rem;
+  font-family: ui-monospace, "SF Mono", Menlo, monospace;
+  color: var(--vp-c-text-3);
+  margin-top: 0.15rem;
+}
+
+/* サービス別のアクセント（左端ライン） */
+.resume-output-card--qiita {
+  border-left: 3px solid #55c500;
+}
+
+.resume-output-card--zenn {
+  border-left: 3px solid #3ea8ff;
+}
+
+.resume-output-card--note {
+  border-left: 3px solid #41c9b4;
+}
+
+.resume-output-card--speakerdeck {
+  border-left: 3px solid #009287;
+}
+
+/* 表（バッジ多用セルでは VitePress 既定の画像スタイルと競合しやすい） */
+.vp-doc table {
+  display: table;
+  width: 100%;
+  font-size: 0.88rem;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+  table-layout: auto;
+}
+
+.vp-doc th,
+.vp-doc td {
+  vertical-align: middle;
+  padding: 0.55rem 0.75rem;
+  line-height: 1.65;
+  word-break: normal;
+}
+
+.vp-doc tr:nth-child(even) {
+  background: var(--vp-c-bg-soft);
+}
+
+/*
+ * shields.io（flat-square）: 高さを揃え、max-width:100% 等で潰れないようにする
+ * — 言語・フレームワーク…／学習履歴の表向け
+ */
+.vp-doc img[src*="shields.io"] {
+  height: 22px;
+  width: auto;
+  max-width: none;
+  vertical-align: middle;
+  margin: 0.15rem 0.28rem 0.15rem 0;
+  display: inline-block;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+.vp-doc table td > p,
+.vp-doc table th > p {
+  margin: 0.35rem 0;
+}
+
+.vp-doc table td > p:first-child:last-child,
+.vp-doc table th > p:first-child:last-child {
+  margin: 0;
+}
+
+/* バッジと「7 年 /」等が混在するセルはフレックスで折り返し */
+.vp-doc table td p:has(img[src*="shields.io"]),
+.vp-doc table th p:has(img[src*="shields.io"]) {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.12rem 0.28rem;
+  line-height: 1.5;
+}
+
+.vp-doc table td p:has(img[src*="shields.io"]) img,
+.vp-doc table th p:has(img[src*="shields.io"]) img {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+/* バッジ表の「分類」列に最低幅だけ確保（長い見出しは折り返し） */
+.vp-doc table th:first-child,
+.vp-doc table td:first-child {
+  min-width: 7.5rem;
+  max-width: 16rem;
+  font-weight: 600;
+  vertical-align: top;
+}
+
+/* details / summary（職歴の折りたたみ） */
+.vp-doc details {
+  margin: 1rem 0;
+  padding: 0.5rem 1rem;
+  border: 1px solid var(--resume-border);
+  border-radius: 8px;
+  background: var(--vp-c-bg-soft);
+}
+
+.vp-doc summary {
+  cursor: pointer;
+  font-weight: 600;
+}

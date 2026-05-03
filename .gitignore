@@ -14,3 +14,8 @@ node_modules/*
 
 # PDF
 **/*.pdf
+
+# VitePress
+docs/.vitepress/dist
+docs/.vitepress/cache
+docs/_site
