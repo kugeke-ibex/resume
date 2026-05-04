@@ -3,7 +3,9 @@ name: Release PDF
 on:
   pull_request:
     branches: [main]
-    paths: ["docs/index.md"]
+    paths:
+      - "pdf/index.md"
+      - "pdf-configs/**"
   workflow_dispatch:
   push:
     tags:

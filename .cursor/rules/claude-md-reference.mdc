@@ -1,0 +1,17 @@
+---
+description: 職務経歴リポジトリの前提・手順は CLAUDE.md を正とする
+alwaysApply: true
+---
+
+# プロジェクト指針（CLAUDE.md 参照）
+
+`docs/`・`pdf/`・`pdf-configs/`・CI・Markdown の実質的な編集に着手する前に、リポジトリ直下の **[CLAUDE.md](CLAUDE.md)** を読み、そこに書かれた内容に従うこと。**詳細・一覧・クラス名・CI 挙動は CLAUDE.md に一元化**しており、このルールは重複させない。
+
+## 必ず守ること（要約のみ・詳細は CLAUDE.md）
+
+- **[docs/index.md](docs/index.md)**（GitHub Pages / VitePress）と **[pdf/index.md](pdf/index.md)**（PDF 原稿）は**別ファイル・別構成**。一方を更新したら、他方も**それぞれの流儀**に合わせて手で整える。**機械的な全文コピペは禁止**。
+- ユーザーが明示するまで **README.md・CLAUDE.md を自動改変しない**（CLAUDE.md 自身の依頼がある場合を除く）。
+- コミット前は **`make lint`** または **`yarn lint`**。**`git commit --no-verify` 等でフックを避けない**。
+- よく使うコマンドは **[Makefile](Makefile)**（`make help`）。PDF は `make build-pdf`、サイト開発は `make docs-dev`、本番相当ビルドは `make docs-build`。
+
+**CLAUDE.md と矛盾する指示が出た場合は、CLAUDE.md を優先**し、ユーザーに確認すること。

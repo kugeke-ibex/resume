@@ -2,11 +2,14 @@
   "name": "resume",
   "version": "1.0.0",
   "description": "KENGOLの職務経歴書",
-  "main": "index.md",
+  "main": "docs/index.md",
   "scripts": {
-    "lint": "textlint docs/index.md",
-    "lint:fix": "textlint --fix docs/index.md",
-    "build:pdf": "md-to-pdf docs/index.md --config-file ./pdf-configs/config.js"
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs",
+    "lint": "textlint docs/index.md pdf/index.md",
+    "lint:fix": "textlint --fix docs/index.md pdf/index.md",
+    "build:pdf": "md-to-pdf pdf/index.md --config-file ./pdf-configs/config.js && mv -f pdf/index.pdf docs/index.pdf"
   },
   "keywords": [],
   "author": "Kenjiro Kuge <kugetyan0211@gmail.com>",
@@ -49,7 +52,8 @@
     "textlint-rule-rousseau": "1.4.8",
     "textlint-rule-sentence-length": "5.2.0",
     "textlint-rule-terminology": "5.2.16",
-    "textlint-rule-use-si-units": "2.0.0"
+    "textlint-rule-use-si-units": "2.0.0",
+    "vitepress": "1.6.3"
   },
   "engines": {
     "node": ">=18.0.0"
