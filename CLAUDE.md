@@ -12,13 +12,14 @@ KENGOL（久下 兼二朗）の職務経歴書リポジトリ。出力は次の 
 
 ## 二重ソース構造（最重要・非自明）
 
-`docs/index.md` と `pdf/index.md` は **別ファイル・別構成**で管理されています。内容を片方に反映する場合も、もう片方の流儀に合わせて書き換えてください。**機械的なコピペは禁止**です。
+`docs/index.md` と `pdf/index.md` は **別ファイル**ですが、本文は **できる限り内容を揃える**方針です。職務経歴詳細など本文の階層・記述は両ファイルで一致させ、片方を更新したらもう片方にも反映してください。ただし出力先固有の構造（VitePress 専用のカード／バッジ用ラッパー、PDF の改ページ用クラスなど）は片方にしか現れません。**機械的なコピペは禁止**で、もう片方の流儀に合わせて手で反映する必要があります。
 
 | 観点 | [docs/index.md](docs/index.md)（Pages） | [pdf/index.md](pdf/index.md)（PDF） |
 | --- | --- | --- |
-| 「職務経歴詳細」の階層 | **案件名**で H3 を切る（会社単位の見出しは無し） | **会社名**で H3、案件は H4 |
+| 「職務経歴詳細」の階層 | **会社名で H3、案件は H4**（pdf と揃える） | **会社名で H3、案件は H4** |
 | `アウトプット`セクション | あり（カード UI） | なし |
 | 各種アカウントの並び | `<div class="resume-account-badges">` で囲んだバッジ列 | バッジ列のみ（ラッパー無し） |
+| 改ページ・列幅制御クラス | `pdf-section-career` / `pdf-career-detail-lead` / `career-index` / `career-tech` を揃える目的で記述は残すが、Pages 側にはスタイル無し（ただの見出し・表として描画） | [pdf-configs/style.css](pdf-configs/style.css) で改ページ・列幅を制御 |
 | HTML ラッパーの参照先 CSS | [docs/.vitepress/theme/custom.css](docs/.vitepress/theme/custom.css) | [pdf-configs/style.css](pdf-configs/style.css) |
 
 ### Pages 側で使われる HTML クラス
@@ -26,6 +27,7 @@ KENGOL（久下 兼二朗）の職務経歴書リポジトリ。出力は次の 
 - `resume-account-badges`: 各種アカウントバッジ列
 - `resume-output-grid` + `resume-output-card resume-output-card--{qiita|zenn|note|speakerdeck|...}`: アウトプットカード（サービス別 modifier で色分け）
 - 子要素は `resume-output-card__service` / `__desc` / `__id` で構成
+- `pdf-*` / `career-*` 系クラスも書かれているが、Pages 側の CSS は当たらないので装飾は無し（pdf との構造揃えのため記述は維持）
 
 ### PDF 側で使われる HTML クラス（改ページ・レイアウト制御）
 
