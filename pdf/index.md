@@ -115,24 +115,12 @@
 - **Amazon OpenSearch Service のマイナーアップグレード（1.2 → 1.3）**
   - **課題**: EOL 対応が必要だが、常時稼働の配信 API 向けクラスタで計画停止を取りづらかった
   - **対応 / 成果**: 専用マスター＋データノード構成を活かし Terraform からローリングアップグレード。検証環境で Vegeta 負荷や Glue 取り込みの影響を確認後、本番は低トラフィック帯に Grafana で監視しつつ実施し、**実質ダウンタイムゼロ**で EOL リスクを解消
-- **Apache Superset のメジャーバージョンアップ（1.4.1 → 5.0.0）と ElastiCache の Valkey 移行**
-  - **課題**: Superset と Redis v5 系キャッシュが陳腐化・EOL に近く、チャートの定期メール運用も継続する必要があった
-  - **対応 / 成果**: Superset 5.0.0 へ追随すると同時に Valkey 7.2 へ切り替え。Docker・`superset_config`・Python 依存の 5.0 対応、レンダリングを Playwright 化、`pip`→`uv` などを実施。**約 1 人月**で脆弱性と延長課金リスクを解消し、既存メール運用を維持
 - **Managed Service for Apache Flink のシステムバージョンアップ（1.8 → 1.20）**
   - **課題**: Scala 実装の大きな破壊的変更への追随が必要で、Flink・分散ストリーム処理は実務未経験だった
   - **対応 / 成果**: 生成 AI で知識を補いつつ段階的に 1.20 へ更新。監視設計とデータ復旧手順まで含め**約 2 ヶ月弱**で商用にリリース（参考: <a href="https://qiita.com/kugeke-ibex/items/7ca3608d235671786c45">Apache Flink バージョンアップで学んだあれこれ</a>）
 - **AWS Glue ELT ジョブのパフォーマンス改善とコスト最適化**
   - **課題**: マーケティングオートメーション基盤連携の ELT が、締切内に終わらないケースがあった
   - **対応 / 成果**: Glue 3.0→4.0、`worker_type` を G.1X、ワーカー数を 2→6、`--enable-auto-scaling` を有効化するなど見直し、締切内完了を安定化。**平均 DPU 約 4.3 / 1 実行あたり約 18 円**のラインを確立
-- **配信 API への新規広告タイプ追加に伴う負荷テスト**
-  - **課題**: 純広告配信 API（想定上限 QPS 1,000）にネイティブ配信と優先度ロジックを足すため、性能根拠が必要だった
-  - **対応 / 成果**: Vegeta で QPS 1,000 成功シナリオを設計し、レイテンシ分位・ECS リソースを計測。**最大 QPS 2,000** でも安定し、チューニングなしでリリース判断できる材料を得た
-- **Amazon SNS からの HTTPS エンドポイント連携追加**
-  - **課題**: 監視委託先の運用ルールに合わせ、HTTPS をプライマリ・メールをバックアップにする二系統化が必要だった
-  - **対応 / 成果**: 重要な CloudWatch アラームに SNS の HTTPS サブスクを追加。認証情報・通知先は **SSM Parameter Store** に集約し、秘匿と保守性を改善
-- **Amazon MWAA のメンテナンス後トラブル対応**
-  - **課題**: メンテ後に `requirements.txt` の `pip install` が失敗し Scheduler / Worker が起動しなかった
-  - **対応 / 成果**: 公式の **`--constraint`** で依存解決を安定化しコンテナを回復。以降も同種ビルド事故を抑える運用へ移行
 
 #### マルチチャネルに対応した広告入稿に関するマーケティングオートメーション基盤（2025/07 〜 現在）
 
@@ -209,12 +197,8 @@
 - **SAML 認証によるシングルサインオン（Microsoft Entra ID とフェデレーションの拡張）**
   - **課題**: 採用担当向けのログイン体験を SSO で改善する一方、特定 IdP 固定だけでは顧客ごとの IdP 要件に追従しづらかった
   - **対応 / 成果**: Microsoft Entra ID（旧 Azure AD）を前提に SAML SSO を導入。**フェデレーションメタデータ XML** を活用し、他 IdP との連携にも展開可能な実装に整理
-- **AWS WAF の導入・運用整備から WafCharm への移行**
-  - **課題**: アプリケーション層の防御を強化する必要があり、ルール運用を手作業に頼るだけでは再現性と工数の面で限界があった
-  - **対応 / 成果**: WAF 導入と運用手順のドキュメント化後、ルール運用を **WafCharm** へ移し自動化。ルールを継続的に効かせつつ運用負荷を下げる流れを構築
-- **求人応募メール取り込み不具合に伴うデータ復旧**
-  - **課題**: 一定期間、応募メールをシステムへ取り込めない不具合があり、欠損データの補完が必要だった
-  - **対応 / 成果**: 対象期間のメール情報を抽出・復旧する作業を主担当で実施し、事業への影響を抑止
+- **AWS WAF の導入・運用整備から WafCharm への移行**: 手運用だった WAF ルールを WafCharm へ移行・自動化し、防御を継続させつつ運用負荷を低減
+- **求人応募メール取り込み不具合に伴うデータ復旧**: 取り込めなかった期間のメール情報を主担当で抽出・復旧し、事業への影響を抑止
 
 #### 管理職としての業務内容
 
@@ -229,34 +213,4 @@
 - チーム内外・他部署・ステークホルダーとのコミュニケーション調整、モチベーションと士気の維持
 
 ## 学習履歴
-
-現役 SRE のメンタリングを受けながら、プライベートでもインフラを継続学習している。**AWS・Terraform** は実務の延長として設計を深め、**EKS・Google Cloud** についても本番に近い前提でハンズオン構成を組み立てた（以下、代表例）。
-
-### AWS（ECS on Fargate を中心とした Web 基盤）
-
-![AWS アーキテクチャ図](../docs/image/aws_practice.png)
-
-- **配信・DNS**: エッジは CloudFront。静的は S3、SPA は Amplify など（**OAC** により、閲覧者がバケット URL に直アクセスしない構成）。ドメインと証明書は Route 53・ACM
-- **コンテナ**: ECS on Fargate。**API サービス**（常時稼働）、**デプロイ時に一度だけ走らせる DB マイグレ用タスク**、**EventBridge Scheduler から ECS `RunTask` で起動する定期バッチ**を分離
-- **非同期・通知**: SQS（DLQ 付き）、SES
-- **セキュリティ**: ALB 手前に WAF。秘密情報は **Secrets Manager** に置き、タスク定義の `secrets` から注入。運用ログインは **SSM Session Manager** 中心とし、SSH（22/tcp）の常時開放や長期鍵運用を避ける
-- **CI/CD**: GitHub Actions でビルド → ECR（**イメージタグ IMMUTABLE**）→ **ecspresso** で ECS へ反映
-- **補足**: 検証環境ではコスト学習の兼ね合いで、NAT Gateway の代わりに NAT インスタンスを利用
-
-### Kubernetes（EKS + Istio + GitOps）
-
-![EKS アーキテクチャ図](../docs/image/kubernetes_advanced.png)
-
-- **入口（インターネット → クラスタ）**: **利用者向け TLS** は **ACM** の証明書で **ALB** で終端。**AWS Load Balancer Controller** の **IP モード**で Istio Ingress Gateway（Pod）をターゲットにし、**Gateway** と **VirtualService** でバックエンドへルーティング
-- **シークレット・AWS 連携**: **External Secrets Operator** が Secrets Manager と同期し、Kubernetes Secret を供給。**EKS Pod Identity** で **IAM ロールを Pod に紐づけ**、**IRSA** と同様に **長期アクセスキーを配布せず** AWS API を呼べるようにした
-- **監視**: **Prometheus**／**Grafana**（クラスタ内で運用）。コンテナログは Fluent Bit 経由で **CloudWatch Logs** に送る
-- **GitOps**: マニフェストは **Kustomize** と **Helm** で管理。GitHub Actions が ECR にイメージを push したあと、**Argo CD Image Updater** がレジストリ上の新イメージを検知し、**Git 側のイメージ参照**（Helm の values、Kustomize のイメージ指定など）を更新 → **Argo CD** がクラスタへ同期
-
-### Google Cloud（Cloud Run を中心としたサーバレス基盤）
-
-![Google Cloud アーキテクチャ図](../docs/image/gc_practice.png)
-
-- **配信**: **Cloud Load Balancing（外部 HTTPS LB）** と **Google マネージド SSL 証明書**で外向け TLS を終端。静的は **Cloud Storage** をバックエンドにした **Cloud CDN**（LB の機能としてキャッシュ）、動的リクエストは **Cloud Run** へオリジン振り分け
-- **セキュリティ**: **Cloud Armor**（WAF・レート制限）、**Secret Manager**。**Cloud SQL への運用接続**は、**外部 IP を持たない踏み台 GCE** と **IAP（Identity-Aware Proxy）の TCP forwarding** 経由に限定。ファイアウォールも **IAP 経路（`35.235.240.0/20`）からの 22/tcp** だけを許可し、常時開放や長期 SSH 鍵運用を避けた
-- **ワークロード**: **Cloud Run サービス**（HTTPS API、**Cloud Tasks** の HTTP ターゲットとして呼び出すワーカー）、**Cloud Run Jobs**（**Cloud Scheduler** で定時実行するバッチ）
-- **CI/CD**: **Cloud Build** が GitHub と連携し、`cloudbuild.yaml` のステージで **Artifact Registry** へビルド → 同じパイプラインから **`gcloud run deploy`** で **Cloud Run** へデプロイまでつなげた
+個人学習としてEKS+Istio+GitOps、GCP Cloud Run、AWS ECSのハンズオン構成を構築（詳細は[こちら](https://kugeke-ibex.github.io/resume/#%E5%AD%A6%E7%BF%92%E5%B1%A5%E6%AD%B4)を参照）
