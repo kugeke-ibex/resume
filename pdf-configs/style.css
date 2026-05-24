@@ -11,8 +11,8 @@ h1:first-child {
 }
 
 h2 {
-  margin-top: 18px;
-  margin-bottom: 8px;
+  margin-top: 13px;
+  margin-bottom: 6px;
   /* 見出しだけがページ末尾に残るのを抑える（後続に最低限一緒に載せる） */
   page-break-after: avoid;
   break-after: avoid;
@@ -88,7 +88,7 @@ table {
   font-size: 10px;
   width: 100%;
   max-width: 100%;
-  margin-bottom: 16px;
+  margin-bottom: 10px;
   border-collapse: collapse;
   word-break: normal;
   overflow-wrap: break-word;
