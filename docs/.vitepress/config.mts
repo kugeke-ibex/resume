@@ -49,8 +49,5 @@ export default defineConfig({
       level: [2, 3],
     },
     socialLinks: [{ icon: "github", link: "https://github.com/kugeke-ibex/resume" }],
-    editLink: {
-      pattern: "https://github.com/kugeke-ibex/resume/edit/main/docs/:path",
-    },
   },
 });
