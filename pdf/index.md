@@ -120,7 +120,8 @@
   - **対応 / 成果**: 生成 AI で知識を補いつつ段階的に 1.20 へ更新。監視設計とデータ復旧手順まで含め**約 2 ヶ月弱**で商用にリリース（参考: <a href="https://qiita.com/kugeke-ibex/items/7ca3608d235671786c45">Apache Flink バージョンアップで学んだあれこれ</a>）
 - **AWS Glue ELT ジョブのパフォーマンス改善とコスト最適化**
   - **課題**: マーケティングオートメーション基盤連携の ELT が、締切内に終わらないケースがあった
-  - **対応 / 成果**: Glue 3.0→4.0、`worker_type` を G.1X、ワーカー数を 2→6、`--enable-auto-scaling` を有効化するなど見直し、締切内完了を安定化。**平均 DPU 約 4.3 / 1 実行あたり約 18 円**のラインを確立
+  - **対応 / 成果**: Glue 3.0→4.0、`worker_type` を G.1X、常時ワーカー数を 2→3 とし `--enable-auto-scaling` で最大 6 まで自動拡張。実行時間を短縮して締切内完了を安定化し、平均 DPU 約 4.3 で **1 実行あたり約 34 円 → 約 18 円（約 46% 削減）** を達成
+    - <small>※ DPU は AWS Glue の課金単位（1 DPU = 4 vCPU / 16 GB）。コストは東京リージョン $0.44/DPU-hour で試算</small>
 
 #### マルチチャネルに対応した広告入稿に関するマーケティングオートメーション基盤（2025/07 〜 現在）
 
@@ -213,4 +214,4 @@
 - チーム内外・他部署・ステークホルダーとのコミュニケーション調整、モチベーションと士気の維持
 
 ## 学習履歴
-個人学習としてEKS+Istio+GitOps、GCP Cloud Run、AWS ECSのハンズオン構成を構築（詳細は[こちら](https://kugeke-ibex.github.io/resume/#%E5%AD%A6%E7%BF%92%E5%B1%A5%E6%AD%B4)を参照）
+個人学習として EKS+Istio+GitOps、GCP Cloud Run、AWS ECS のハンズオン構成を構築（詳細は [こちら](https://kugeke-ibex.github.io/resume/#%E5%AD%A6%E7%BF%92%E5%B1%A5%E6%AD%B4) を参照）

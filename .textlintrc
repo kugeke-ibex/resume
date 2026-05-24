@@ -77,7 +77,10 @@
     },
     "use-si-units": {
       "allowedUnits": [
-        "%"
+        "%",
+        "DPU",
+        "vCPU",
+        "GB"
       ],
       "restrictNonSIUnits": true
     },
