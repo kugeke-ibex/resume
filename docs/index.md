@@ -165,9 +165,9 @@
 - **Amazon MWAA のメンテナンス後トラブル対応**
   - **課題**: メンテ後に `requirements.txt` の `pip install` が失敗し Scheduler / Worker が起動しなかった
   - **対応 / 成果**: 公式の **`--constraint`** で依存解決を安定化しコンテナを回復。以降も同種ビルド事故を抑える運用へ移行
-- **Amazon Linux 2 → 2023 への OS 移行（配信サーバー・監視基盤）**
-  - **課題**: 配信サーバー 4 種と Grafana / Prometheus 監視基盤が AL2 の EOL 対応を迫られたが、AL2023 は起動時の自動セキュリティ更新が既定で行われない点や cgroup v2 化など仕様差が大きかった
-  - **対応 / 成果**: userdata・ASG を AL2023 対応へ更新し、ECS・ベンチマーク各モジュールの既定 AMI を AL2023 へ切替（ECS は SSM パラメータ名で指定）。cAdvisor の cgroup v2 対応、node_exporter のアーキテクチャ修正、Go の公式バイナリ化、yum の RPM ロック競合を retry ヘルパーで吸収するなどブート処理を安定化。あわせて本番の Prometheus・CloudWatch Agent のメモリ逼迫をインスタンスタイプとコンテナ割当の見直しで解消し、ASG のローリング入替で**実質ダウンタイムゼロ**の AL2023 移行を実現して EOL リスクを解消
+- **Amazon Linux 2 → 2023 への OS 移行（配信サーバー・監視／ログ基盤）**
+  - **課題**: 配信サーバー 4 種と Grafana / Prometheus / Fluentd の監視・ログ基盤が AL2 の EOL 対応を迫られたが、AL2023 は起動時の自動セキュリティ更新が既定で行われない点や cgroup v2 化など仕様差が大きかった
+  - **対応 / 成果**: userdata・ASG を AL2023 対応へ更新し、ECS・ベンチマーク各モジュールの既定 AMI を AL2023 へ切替（ECS は SSM パラメータ名で指定）。cAdvisor の cgroup v2 対応、node_exporter のアーキテクチャ修正、Go の公式バイナリ化、yum の RPM ロック競合を retry ヘルパーで吸収するなどブート処理を安定化。あわせて本番の Prometheus・CloudWatch Agent のメモリ逼迫をインスタンスタイプとコンテナ割当の見直しで解消し、ASG のローリング入替で**無停止のまま AL2023 へ全面移行**し、AL2 の EOL 対応を完了
 
 #### マルチチャネルに対応した広告入稿に関するマーケティングオートメーション基盤（2025/07 〜 現在）
 
