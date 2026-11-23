@@ -12,7 +12,7 @@
 ## 職務要約
 
 - Web 系バックエンドエンジニアとして約 6 年。人材・採用 SaaS のチームリーダー／グループマネージャー（4 〜 7 名規模、**約 2 年半**）を経て、現在はデジタルマーケティング領域における大規模な配信基盤の開発・運用に従事
-- コアスキル: **AWS マネージドサービスの設計・運用（6 年、直近は ETL／ストリーム処理基盤の運用改善に注力）／ Go・TypeScript・PHP**
+- コアスキル: **AWS マネージドサービスの設計・運用（7 年、直近は ETL／ストリーム処理基盤の運用改善に注力）／ Go・TypeScript・PHP**
 - 特に得意とするのは、EOS／EOL 対応や監査対応、パフォーマンス改善を通じて、既存基盤の信頼性とスケーラビリティを継続的に高めていくこと
 - DDD・オブジェクト指向に関心が強く、変更容易性の高い設計と、他部署を巻き込んだスピード感のある開発推進を強みとする
 
@@ -108,8 +108,8 @@
 
 | 期間 | 会社名 | 業界 | プロジェクト | 役割 | 技術スタック |
 | --- | --- | --- | --- | --- | --- |
-| 2025/05 〜 現在 | Supership 株式会社 | デジタルマーケ | 統合型配信システム | メンバー | Go（Gin）、TypeScript（Next.js、NestJS）<br>Terraform、AWS |
-| 2025/07 〜 現在 | Supership 株式会社 | デジタルマーケ | マーケティングオートメーション基盤 | メンバー | Go（Echo）、TypeScript（Next.js）<br>Terraform、AWS |
+| 2025/05 〜 現在 | Supership 株式会社 | デジタルマーケ | 統合型配信システム | メンバー | Go（Gin）、TypeScript（Next.js、NestJS）<br>Scala、Terraform、AWS |
+| 2025/07 〜 現在 | Supership 株式会社 | デジタルマーケ | マーケティングオートメーション基盤 | メンバー | Go（Echo）、TypeScript（Next.js）<br>Scala、Terraform、AWS |
 | 2020/04 〜 2025/04 | 株式会社ツナググループ・ホールディングス | 人材・採用 SaaS | 採用管理システム（ATS） | メンバー → TL → 開発 GM | PHP（Laravel）、JavaScript（jQuery）<br>Python、Node.js、AWS |
 
 </div>
